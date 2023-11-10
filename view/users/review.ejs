@@ -1,0 +1,1773 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIREX | profile</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="user_assets/userprofile.css">
+
+    <link rel="stylesheet" href="/user_assets/ridestyle/themes/vinova_ridestyle/assets/cache/theme-699bbe41.css"
+        type="text/css" media="all">
+
+    <link rel="icon" type="image/vnd.microsoft.icon"
+        href="/public/user_assets/ridestyle/themes/vinova_ridestyle/assets/img/icon">
+    <link rel="shortcut icon" type="image/x-icon" href="/user_assets/ridestyle/img/favicon.ico@1324977642">
+    <link rel="icon" type="image/png" href="/user_assets/ridestyle/img/favicon.ico@1324977642">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="/user_assets/ridestyle/themes/vinova_ridestyle/assets/cache/theme-699bbe41.css"
+        type="text/css" media="all">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://allyoucan.cloud/cdn/icofont/1.0.1/icofont.css"
+        integrity="sha384-jbCTJB16Q17718YM9U22iJkhuGbS0Gd2LjaWb4YJEZToOPmnKDjySVa323U+W7Fv" crossorigin="anonymous">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+    <!------ Include the above in your HEAD tag ---------->
+
+
+</head>
+
+<style>
+    .total-like-user-main a {
+        display: inline-block;
+        margin: 0 -17px 0 0;
+    }
+
+    .total-like {
+        border: 1px solid;
+        border-radius: 50px;
+        display: inline-block;
+        font-weight: 500;
+        height: 34px;
+        line-height: 33px;
+        padding: 0 13px;
+        vertical-align: top;
+    }
+
+    .restaurant-detailed-ratings-and-reviews hr {
+        margin: 0 -24px;
+    }
+
+    .graph-star-rating-header .star-rating {
+        font-size: 17px;
+    }
+
+    .progress {
+        background: #f2f4f8 none repeat scroll 0 0;
+        border-radius: 0;
+        height: 30px;
+    }
+
+    .rating-list {
+        display: inline-flex;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .rating-list-left {
+        height: 16px;
+        line-height: 29px;
+        width: 10%;
+    }
+
+    .rating-list-center {
+        width: 80%;
+    }
+
+    .rating-list-right {
+        line-height: 29px;
+        text-align: right;
+        width: 10%;
+    }
+
+    .restaurant-slider-pics {
+        bottom: 0;
+        font-size: 12px;
+        left: 0;
+        z-index: 999;
+        padding: 0 10px;
+    }
+
+    .restaurant-slider-view-all {
+        bottom: 15px;
+        right: 15px;
+        z-index: 999;
+    }
+
+    .offer-dedicated-nav .nav-link.active,
+    .offer-dedicated-nav .nav-link:hover,
+    .offer-dedicated-nav .nav-link:focus {
+        border-color: #3868fb;
+        color: #3868fb;
+    }
+
+    .offer-dedicated-nav .nav-link {
+        border-bottom: 2px solid #fff;
+        color: #000000;
+        padding: 16px 0;
+        font-weight: 600;
+    }
+
+    .offer-dedicated-nav .nav-item {
+        margin: 0 37px 0 0;
+    }
+
+    .restaurant-detailed-action-btn {
+        margin-top: 12px;
+    }
+
+    .restaurant-detailed-header-right .btn-success {
+        border-radius: 3px;
+        height: 45px;
+        margin: -18px 0 18px;
+        min-width: 130px;
+        padding: 7px;
+    }
+
+    .text-black {
+        color: #000000;
+    }
+
+    .icon-overlap {
+        bottom: -23px;
+        font-size: 74px;
+        opacity: 0.23;
+        position: absolute;
+        right: -32px;
+    }
+
+    .menu-list img {
+        width: 41px;
+        height: 41px;
+        object-fit: cover;
+    }
+
+    .restaurant-detailed-header-left img {
+        width: 88px;
+        height: 88px;
+        border-radius: 3px;
+        object-fit: cover;
+        box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
+    }
+
+    .reviews-members .media .mr-3 {
+        width: 56px;
+        height: 56px;
+        object-fit: cover;
+    }
+
+    .rounded-pill {
+        border-radius: 50rem !important;
+    }
+
+    .total-like-user {
+        border: 2px solid #fff;
+        height: 34px;
+        box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
+        width: 34px;
+    }
+
+    .total-like-user-main a {
+        display: inline-block;
+        margin: 0 -17px 0 0;
+    }
+
+    .total-like {
+        border: 1px solid;
+        border-radius: 50px;
+        display: inline-block;
+        font-weight: 500;
+        height: 34px;
+        line-height: 33px;
+        padding: 0 13px;
+        vertical-align: top;
+    }
+
+    .restaurant-detailed-ratings-and-reviews hr {
+        margin: 0 -24px;
+    }
+
+    .graph-star-rating-header .star-rating {
+        font-size: 17px;
+    }
+
+    .progress {
+        background: #f2f4f8 none repeat scroll 0 0;
+        border-radius: 0;
+        height: 30px;
+    }
+
+    .rating-list {
+        display: inline-flex;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .rating-list-left {
+        height: 16px;
+        line-height: 29px;
+        width: 10%;
+    }
+
+    .rating-list-center {
+        width: 80%;
+    }
+
+    .rating-list-right {
+        line-height: 29px;
+        text-align: right;
+        width: 10%;
+    }
+
+    .restaurant-slider-pics {
+        bottom: 0;
+        font-size: 12px;
+        left: 0;
+        z-index: 999;
+        padding: 0 10px;
+    }
+
+    .restaurant-slider-view-all {
+        bottom: 15px;
+        right: 15px;
+        z-index: 999;
+    }
+
+    .progress {
+        background: #f2f4f8 none repeat scroll 0 0;
+        border-radius: 0;
+        height: 30px;
+    }
+</style>
+
+
+
+<style id="antiClickjack">
+    body {
+        display: none !important;
+    }
+</style>
+<style>
+    #cart-subtotal-shipping {
+        display: none;
+    }
+
+    .cart-content p:nth-child(3n) {
+        display: none;
+    }
+
+    .summary-selected-carrier .carrier-delay {
+        display: none;
+    }
+
+    .edit-link {
+        color: black;
+        font-size: medium;
+        transition: color 0.3s;
+        /* Smooth transition for color change */
+    }
+
+    .edit-link:hover {
+        color: orange
+            /* Change the color when hovering */
+    }
+</style>
+<script type="text/javascript">
+    if (self === top) {
+        var antiClickjack = document.getElementById("antiClickjack");
+        antiClickjack.parentNode.removeChild(antiClickjack);
+    } else {
+        top.location = self.location;
+    }
+</script>
+
+<style type="text/css">
+    #main-site {
+        background-color: #ffffff;
+    }
+
+    @media (min-width: 1200px) {
+        .container {
+            width: 1200px;
+        }
+
+        #header .container {
+            width: 1200px;
+        }
+
+        .footer .container {
+            width: 1200px;
+        }
+
+        #index .container {
+            width: 1200px;
+        }
+    }
+
+    #popup-subscribe .modal-dialog .modal-content {
+        background-image: url(user_assets/ridestyle/modules/novthemeconfig/images/newsletter_bg.jpg);
+    }
+</style>
+
+<body>
+
+
+
+    <script type="text/javascript">
+        var baseDir = "\/ridestyle\/";
+        var isLogged = false;
+        var isLoggedWishlist = false;
+        var prestashop = { "cart": { "products": [], "totals": { "total": { "type": "total", "label": "Total", "amount": 0, "value": "$0.00" }, "total_including_tax": { "type": "total", "label": "Total (tax incl.)", "amount": 0, "value": "$0.00" }, "total_excluding_tax": { "type": "total", "label": "Total (tax excl.)", "amount": 0, "value": "$0.00" } }, "subtotals": { "products": { "type": "products", "label": "Subtotal", "amount": 0, "value": "$0.00" }, "discounts": null, "shipping": { "type": "shipping", "label": "Shipping", "amount": 0, "value": "Free" }, "tax": { "type": "tax", "label": "Taxes", "amount": 0, "value": "$0.00" } }, "products_count": 0, "summary_string": "0 items", "vouchers": { "allowed": 0, "added": [] }, "discounts": [], "minimalPurchase": 0, "minimalPurchaseRequired": "" }, "currency": { "name": "US Dollar", "iso_code": "USD", "iso_code_num": "840", "sign": "$" }, "customer": { "lastname": null, "firstname": null, "email": null, "birthday": null, "newsletter": null, "newsletter_date_add": null, "optin": null, "website": null, "company": null, "siret": null, "ape": null, "is_logged": false, "gender": { "type": null, "name": null }, "addresses": [] }, "language": { "name": "English (English)", "iso_code": "en", "locale": "en-US", "language_code": "en-us", "is_rtl": "0", "date_format_lite": "m\/d\/Y", "date_format_full": "m\/d\/Y H:i:s", "id": 1 }, "page": { "title": "", "canonical": null, "meta": { "title": "Prestashop_RideStyle", "description": "Shop powered by PrestaShop", "keywords": "", "robots": "index" }, "page_name": "index", "body_classes": { "lang-en": true, "lang-rtl": false, "country-US": true, "currency-USD": true, "layout-full-width": true, "page-index": true, "tax-display-disabled": true }, "admin_notifications": [] }, "shop": { "name": "Prestashop_RideStyle", "logo": "\/ridestyle\/img\/logo.png", "stores_icon": "\/ridestyle\/img\/logo_stores.png", "favicon": "\/ridestyle\/img\/favicon.ico" }, "urls": { "base_url": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/", "current_url": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/?home=home_1&SubmitCurrency=1&id_currency=1", "shop_domain_url": "https:\/\/demo.bestprestashoptheme.com", "img_ps_url": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/img\/", "img_cat_url": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/img\/c\/", "img_lang_url": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/img\/l\/", "img_prod_url": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/img\/p\/", "img_manu_url": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/img\/m\/", "img_sup_url": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/img\/su\/", "img_ship_url": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/img\/s\/", "img_store_url": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/img\/st\/", "img_col_url": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/img\/co\/", "img_url": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/themes\/vinova_ridestyle\/assets\/img\/", "css_url": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/themes\/vinova_ridestyle\/assets\/css\/", "js_url": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/themes\/vinova_ridestyle\/assets\/js\/", "pic_url": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/upload\/", "pages": { "address": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/address", "addresses": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/addresses", "authentication": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/login", "cart": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/cart", "category": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/index.php?controller=category", "cms": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/index.php?controller=cms", "contact": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/contact-us", "discount": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/discount", "guest_tracking": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/guest-tracking", "history": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/order-history", "identity": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/identity", "index": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/", "my_account": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/my-account", "order_confirmation": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/order-confirmation", "order_detail": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/index.php?controller=order-detail", "order_follow": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/order-follow", "order": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/order", "order_return": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/index.php?controller=order-return", "order_slip": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/credit-slip", "pagenotfound": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/page-not-found", "password": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/password-recovery", "pdf_invoice": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/index.php?controller=pdf-invoice", "pdf_order_return": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/index.php?controller=pdf-order-return", "pdf_order_slip": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/index.php?controller=pdf-order-slip", "prices_drop": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/prices-drop", "product": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/index.php?controller=product", "search": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/search", "sitemap": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/sitemap", "stores": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/stores", "supplier": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/supplier", "register": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/login?create_account=1", "order_login": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/order?login=1" }, "alternative_langs": { "en-us": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/?home=home_1&SubmitCurrency=1&id_currency=1", "fr-fr": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/fr\/?home=home_1&SubmitCurrency=1&id_currency=1", "es-es": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/es\/?home=home_1&SubmitCurrency=1&id_currency=1", "it-it": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/it\/?home=home_1&SubmitCurrency=1&id_currency=1", "pl-pl": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/pl\/?home=home_1&SubmitCurrency=1&id_currency=1", "ar-sa": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/ar\/?home=home_1&SubmitCurrency=1&id_currency=1" }, "theme_assets": "\/ridestyle\/themes\/vinova_ridestyle\/assets\/", "actions": { "logout": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/?mylogout=" }, "no_picture_image": { "bySize": { "small_default": { "url": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/img\/p\/en-default-small_default.jpg", "width": 125, "height": 74 }, "cart_default": { "url": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/img\/p\/en-default-cart_default.jpg", "width": 125, "height": 125 }, "medium_default": { "url": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/img\/p\/en-default-medium_default.jpg", "width": 370, "height": 220 }, "home_default": { "url": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/img\/p\/en-default-home_default.jpg", "width": 450, "height": 268 }, "large_default": { "url": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/img\/p\/en-default-large_default.jpg", "width": 570, "height": 339 } }, "small": { "url": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/img\/p\/en-default-small_default.jpg", "width": 125, "height": 74 }, "medium": { "url": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/img\/p\/en-default-medium_default.jpg", "width": 370, "height": 220 }, "large": { "url": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/img\/p\/en-default-large_default.jpg", "width": 570, "height": 339 }, "legend": "" } }, "configuration": { "display_taxes_label": false, "is_catalog": false, "show_prices": true, "opt_in": { "partner": true }, "quantity_discount": { "type": "price", "label": "Price" }, "voucher_enabled": 0, "return_enabled": 0 }, "field_required": [], "breadcrumb": { "links": [{ "title": "Home", "url": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/" }], "count": 1 }, "link": { "protocol_link": "https:\/\/", "protocol_content": "https:\/\/" }, "time": 1693838046, "static_token": "9d691e438ad3bb533a2a9a0ac6fec67f", "token": "4aa7460c85dac8f063b8f1681141bc80" };
+        var search_url = "https:\/\/user_asset\/ridestyle\/en\/search";
+        var static_token = "9d691e438ad3bb533a2a9a0ac6fec67f";
+        var wishlistProductsIdsobject = [];
+    </script>
+
+    <body id="index" class="lang-en country-us currency-usd layout-full-width page-index tax-display-disabled
+   displayhomenovone">
+
+
+
+        <main id="main-site">
+
+
+
+
+            <header id="header" class="header-1">
+
+
+
+
+
+                <div class="header-top hidden-sm-down group-sticky" style="background-color:black;">
+                    <div class="container">
+                        <div class="row d-flex align-items-center content-header-top">
+                            <div
+                                class="col-xl-8 col-lg-7 col-md-9 d-flex align-items-center justify-content-between header-top-left">
+                                <div id="_desktop_logo"
+                                    class="contentsticky_logo d-flex align-items-center justify-content-start">
+                                    <a href="/home">
+                                        <img class="logo img-fluid" src="/user_assets/userImages/logo-1.png"
+                                            alt="RIDEX">
+                                    </a>
+                                </div>
+
+                                <div id="_desktop_top_menu">
+                                    <nav id="nov-megamenu" class="clearfix">
+                                        <!-- Brand and toggle get grouped for better mobile display -->
+                                        <div id="megamenu" class="nov-megamenu clearfix">
+                                            <ul class="menu level1">
+                                                <li class="item home-page has-sub"><span class="opener"></span><a
+                                                        href="/home" title="Home"><i class="zmdi zmdi-home"></i>Home</a>
+
+                                                </li>
+                                                <li class="item category-mega group"><span class="opener"></span><a
+                                                        href="/shoppage" title="Shop"><i
+                                                            class="zmdi zmdi-tag"></i>Shop</a>
+                                                </li>
+                                                <li class="item  has-sub"><span class="opener"></span><a href="#"
+                                                        title="Vendors"><i class="zmdi zmdi-assignment"></i>Vendors</a>
+                                                    <div class="dropdown-menu" style="width:200px">
+                                                        <ul class="">
+                                                            <li class="item "><a href="#" title="Vendor Shop">Vendor
+                                                                    Shop</a></li>
+                                                            <li class="item  has-sub"><span class="opener"></span><a
+                                                                    href="#" title="Vendor Dashboard">Vendor
+                                                                    Dashboard</a>
+                                                                <div class="dropdown-menu" style="width:200px">
+                                                                    <ul class="">
+                                                                        <li class="item "><a href="#"
+                                                                                title="Orders">Orders</a></li>
+                                                                        <li class="item "><a href="#"
+                                                                                title="Shop Settings">Shop Settings</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="item  has-sub"><span class="opener"></span><a
+                                                        href="user_assets/prestashop_ridestyle/blog.html"
+                                                        title="Blog"><i class="zmdi zmdi-library"></i>Blog</a>
+                                                    <div class="dropdown-menu" style="width:260px">
+                                                        <ul class="">
+                                                            <li class="item "><a
+                                                                    href="index.php?fc=module&amp;module=smartblog&amp;id_post=7&amp;controller=details"
+                                                                    title="Blog detail">Blog detail</a></li>
+                                                            <li class="item "><a
+                                                                    href="index.php?fc=module&amp;module=smartblog&amp;id_category=3&amp;page=1&amp;controller=category&amp;cateblog_layout=layout-left-column"
+                                                                    title="Category Blog ( Left column)">Category Blog (
+                                                                    Left column)</a></li>
+                                                            <li class="item "><a
+                                                                    href="index.php?fc=module&amp;module=smartblog&amp;id_category=3&amp;page=1&amp;controller=category&amp;cateblog_layout=layout-right-column"
+                                                                    title="Category Blog ( Right column)">Category Blog
+                                                                    ( Right column)</a></li>
+                                                            <li class="item "><a
+                                                                    href="index.php?fc=module&amp;module=smartblog&amp;id_category=3&amp;page=1&amp;controller=category&amp;cateblog_layout=layout-one-column"
+                                                                    title="Category Blog ( One column)">Category Blog (
+                                                                    One column)</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="item "><a href="" title="Contact us"><i
+                                                            class="zmdi zmdi-phone"></i>Contact us</a>
+                                                </li>
+                                                <li class="item "><a href="#" title="ABOUT"><i
+                                                            class="zmdi zmdi-accounts"></i>ABOUT</a></li>
+                                            </ul>
+                                        </div>
+                                    </nav>
+                                </div>
+
+                            </div>
+                            <div
+                                class="col-xl-4 col-lg-5 col-md-3 d-flex align-items-center justify-content-end header-top-right">
+                                <div class="contentsticky_group d-flex align-items-center justify-content-end ">
+                                    <div class="contentsticky_search d-flex">
+                                        <!-- block seach mobile -->
+                                        <!-- Block search module TOP -->
+                                        <div id="_desktop_search_content" data-id_lang="1" data-ajaxsearch="1"
+                                            data-novadvancedsearch_type="top" data-instantsearch="" data-search_ssl="1"
+                                            data-link_search_ssl="/user_assets/ridestyle/en/search"
+                                            data-action="/user_assets/ridestyle/en/module/novadvancedsearch/result">
+                                            <div class="icon-advansearch">
+                                                <i class="fa fa-search nov-toggle-btn icon-adsearch"></i>
+                                            </div>
+                                            <div class="block_advancedsearch">
+                                                <form method="get"
+                                                    action="/user_assets/ridestyle/en/module/novadvancedsearch/result"
+                                                    id="searchbox" class="form-novadvancedsearch">
+                                                    <input type="hidden" name="fc" value="module">
+                                                    <input type="hidden" name="module" value="novadvancedsearch">
+                                                    <input type="hidden" name="controller" value="result">
+                                                    <input type="hidden" name="orderby" value="position" />
+                                                    <input type="hidden" name="orderway" value="desc" />
+                                                    <input type="hidden" name="id_category" class="id_category"
+                                                        value="0" />
+                                                    <div class="input-group input-group-left">
+                                                        <div class="input-group-btn nov_category_tree">
+                                                            <button type="button" class="btn dropdown-toggle"
+                                                                data-toggle="dropdown" aria-haspopup="true"
+                                                                value="aaaaa" aria-expanded="false">
+                                                                <span>Categories</span>
+                                                            </button>
+                                                            <ul class="dropdown-menu list-unstyled">
+                                                                <li class="dropdown-item active" data-value="0">
+                                                                    <span>All Categories</span>
+                                                                </li>
+                                                                <li class="dropdown-item " data-value="2">
+                                                                    <span>Home</span>
+                                                                </li>
+
+                                                                <li class="dropdown-item font-weight-bold"
+                                                                    data-value="3">
+                                                                    <span>Accessories</span>
+                                                                </li>
+
+
+                                                                <li class="dropdown-item font-weight-bold"
+                                                                    data-value="6">
+                                                                    <span>Helmets</span>
+                                                                </li>
+
+
+                                                                <li class="dropdown-item font-weight-bold"
+                                                                    data-value="9">
+                                                                    <span>Bikes</span>
+                                                                </li>
+
+                                                                <li class="dropdown-item pl-25" data-value="11">
+                                                                    <span>- Road Bike</span>
+                                                                </li>
+                                                                <li class="dropdown-item pl-25" data-value="12">
+                                                                    <span>- Jump Bikes</span>
+                                                                </li>
+                                                                <li class="dropdown-item pl-25" data-value="13">
+                                                                    <span>- BMX Bikes</span>
+                                                                </li>
+                                                                <li class="dropdown-item pl-25" data-value="8">
+                                                                    <span>- Mountain Bike</span>
+                                                                </li>
+
+                                                                <li class="dropdown-item font-weight-bold"
+                                                                    data-value="4">
+                                                                    <span>Clothing</span>
+                                                                </li>
+
+
+                                                                <li class="dropdown-item font-weight-bold"
+                                                                    data-value="5">
+                                                                    <span>Parts &amp; Components</span>
+                                                                </li>
+
+
+                                                                <li class="dropdown-item font-weight-bold"
+                                                                    data-value="7">
+                                                                    <span>Frames</span>
+                                                                </li>
+
+
+                                                            </ul>
+                                                        </div>
+                                                        <input type="text" id="search_query_top"
+                                                            class="search_query ui-autocomplete-input form-control"
+                                                            name="search_query" value="" placeholder="Search" />
+                                                        <span class="input-group-btn button-search">
+                                                            <button class="btn btn-secondary" type="submit"
+                                                                name="submit_search"><i
+                                                                    class="icon-novsearch"></i>Enter</button>
+                                                        </span>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <!-- /Block search module TOP -->
+
+                                    </div>
+                                    <div id="nov_block_myaccount_infos"
+                                        class="contentsticky_account hidden-sm-down dropdown header_link_myaccount">
+                                        <div class="myaccount-icon dropdown-toggle" data-toggle="dropdown"
+                                            aria-haspopup="true" aria-expanded="false" role="main">
+                                            <i class="fa fa-user"></i>
+                                        </div>
+                                        <div class="account-list dropdown-menu">
+                                            <ul class="account-list-content" id="_desktop_account-list-content">
+                                                <li>
+                                                    <a class="account" href="/userprofile" rel="nofollow"
+                                                        title="Log in to your customer account"><i
+                                                            class="fa fa-cog"></i><span>My
+                                                            Account</span></a>
+                                                </li>
+                                                <li>
+                                                    <a class="login" href="/login" rel="nofollow"
+                                                        title="Log in to your customer account"><i
+                                                            class="fa fa-sign-in"></i><span>Log
+                                                            in</span></a>
+                                                </li>
+                                                <li>
+                                                    <a class="logout" href="/logout" rel="nofollow"
+                                                        title="Log me out"><i class="fa fa-sign-out"></i><span>Log
+                                                            out</span></a>
+                                                </li>
+                                                <li>
+                                                    <a class="register" href="/userSignup " rel="nofollow"
+                                                        title="Register Account"><i
+                                                            class="fa fa-user"></i><span>Register</span></a>
+                                                </li>
+                                                <li>
+                                                    <a class="check-out" href="/user_assets/ridestyle/en/order"
+                                                        rel="nofollow" title="Checkout"><i
+                                                            class="material-icons">check_circle</i><span>Checkout</span></a>
+                                                </li>
+                                                <li class="link_wishlist">
+                                                    <a href="/user_assets/ridestyle/en/module/novblockwishlist/mywishlist"
+                                                        title="My Wishlists">
+                                                        <i class="fa fa-heart"></i><span>My Wishlists</span>
+                                                    </a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <a href="/cart">
+                                        <div class="contentsticky_cart">
+                                            <div id="_desktop_cart">
+                                                <div class="blockcart cart-preview"
+                                                    data-refresh-url="/user_assets/ridestyle/en/module/ps_shoppingcart/ajax">
+                                                    <div class="header-cart">
+                                                        <div class="header-cart-icon">
+                                                            <span class="cart-products-count"></span>
+                                                            <i class="fa fa-shopping-cart"></i>
+                                                        </div>
+                                                    </div>
+                                    </a>
+
+                                    <div class="cart_block ">
+                                        <!-- <div class="no-items">
+                            No products in the cart
+                          </div> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- <div id="_desktop_currency_selector" class="currency-selector groups-selector hidden-sm-down">
+                  <div class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                    role="main">
+                    <span class="expand-more">USD</span>
+                  </div>
+                  <div class="currency-list dropdown-menu">
+                    <div class="currency-list-content groups-selector-list-content">
+                      <div class="currency-item item-list">
+                        <a title="Euro" rel="nofollow"
+                          href="/user_assets/ridestyle/en/?home=home_1&amp;SubmitCurrency=1&amp;id_currency=1&amp;SubmitCurrency=1&amp;id_currency=2">€
+                          EUR</a>
+                      </div>
+                      <div class="currency-item item-list current flex-first">
+                        <a title="US Dollar" rel="nofollow"
+                          href="/user_assets/ridestyle/en/?home=home_1&amp;SubmitCurrency=1&amp;id_currency=1&amp;SubmitCurrency=1&amp;id_currency=1">$
+                          USD</a>
+                      </div>
+                    </div>
+                  </div>
+                </div> -->
+                    </div>
+                </div>
+                </div>
+                </div>
+                </div>
+
+            </header>
+            <section>
+                <div class="container">
+                    <div class="col-md-12">
+                        <div class="offer-dedicated-body-left">
+                            <div class="tab-content" id="pills-tabContent">
+                                <div class="tab-pane fade" id="pills-order-online" role="tabpanel"
+                                    aria-labelledby="pills-order-online-tab">
+                                    <div id="#menu" class="bg-white rounded shadow-sm p-4 mb-4 explore-outlets">
+                                        <h5 class="mb-4">Recommended</h5>
+                                        <form class="explore-outlets-search mb-4">
+                                            <div class="input-group">
+                                                <input type="text" placeholder="Search for dishes..."
+                                                    class="form-control">
+                                                <div class="input-group-append">
+                                                    <button type="button" class="btn btn-link">
+                                                        <i class="icofont-search"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                        <h6 class="mb-3">Most Popular <span class="badge badge-success"><i
+                                                    class="icofont-tags"></i> 15% Off All Items </span></h6>
+                                        <div
+                                            class="owl-carousel owl-theme owl-carousel-five offers-interested-carousel mb-3 owl-loaded owl-drag owl-hidden">
+
+                                            <div class="owl-stage-outer">
+                                                <div class="owl-stage"
+                                                    style="transform: translate3d(-682px, 0px, 0px); transition: all 0s ease 0s; width: 2183px;">
+                                                    <div class="owl-item cloned" style="width: 136.4px;">
+                                                        <div class="item">
+                                                            <div class="mall-category-item">
+                                                                <a href="#">
+                                                                    <img class="img-fluid" src="img/list/2.png">
+                                                                    <h6>Sandwiches</h6>
+                                                                    <small>8 ITEMS</small>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="owl-item cloned" style="width: 136.4px;">
+                                                        <div class="item">
+                                                            <div class="mall-category-item">
+                                                                <a href="#">
+                                                                    <img class="img-fluid" src="img/list/3.png">
+                                                                    <h6>Soups</h6>
+                                                                    <small>2 ITEMS</small>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="owl-item cloned" style="width: 136.4px;">
+                                                        <div class="item">
+                                                            <div class="mall-category-item">
+                                                                <a href="#">
+                                                                    <img class="img-fluid" src="img/list/4.png">
+                                                                    <h6>Pizzas</h6>
+                                                                    <small>56 ITEMS</small>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="owl-item cloned" style="width: 136.4px;">
+                                                        <div class="item">
+                                                            <div class="mall-category-item">
+                                                                <a href="#">
+                                                                    <img class="img-fluid" src="img/list/5.png">
+                                                                    <h6>Pastas</h6>
+                                                                    <small>10 ITEMS</small>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="owl-item cloned" style="width: 136.4px;">
+                                                        <div class="item">
+                                                            <div class="mall-category-item">
+                                                                <a href="#">
+                                                                    <img class="img-fluid" src="img/list/6.png">
+                                                                    <h6>Chinese</h6>
+                                                                    <small>25 ITEMS</small>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="owl-item active" style="width: 136.4px;">
+                                                        <div class="item">
+                                                            <div class="mall-category-item">
+                                                                <a href="#">
+                                                                    <img class="img-fluid" src="img/list/1.png">
+                                                                    <h6>Burgers</h6>
+                                                                    <small>5 ITEMS</small>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="owl-item active" style="width: 136.4px;">
+                                                        <div class="item">
+                                                            <div class="mall-category-item">
+                                                                <a href="#">
+                                                                    <img class="img-fluid" src="img/list/2.png">
+                                                                    <h6>Sandwiches</h6>
+                                                                    <small>8 ITEMS</small>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="owl-item active" style="width: 136.4px;">
+                                                        <div class="item">
+                                                            <div class="mall-category-item">
+                                                                <a href="#">
+                                                                    <img class="img-fluid" src="img/list/3.png">
+                                                                    <h6>Soups</h6>
+                                                                    <small>2 ITEMS</small>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="owl-item active" style="width: 136.4px;">
+                                                        <div class="item">
+                                                            <div class="mall-category-item">
+                                                                <a href="#">
+                                                                    <img class="img-fluid" src="img/list/4.png">
+                                                                    <h6>Pizzas</h6>
+                                                                    <small>56 ITEMS</small>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="owl-item active" style="width: 136.4px;">
+                                                        <div class="item">
+                                                            <div class="mall-category-item">
+                                                                <a href="#">
+                                                                    <img class="img-fluid" src="img/list/5.png">
+                                                                    <h6>Pastas</h6>
+                                                                    <small>10 ITEMS</small>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="owl-item" style="width: 136.4px;">
+                                                        <div class="item">
+                                                            <div class="mall-category-item">
+                                                                <a href="#">
+                                                                    <img class="img-fluid" src="img/list/6.png">
+                                                                    <h6>Chinese</h6>
+                                                                    <small>25 ITEMS</small>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="owl-item cloned" style="width: 136.4px;">
+                                                        <div class="item">
+                                                            <div class="mall-category-item">
+                                                                <a href="#">
+                                                                    <img class="img-fluid" src="img/list/1.png">
+                                                                    <h6>Burgers</h6>
+                                                                    <small>5 ITEMS</small>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="owl-item cloned" style="width: 136.4px;">
+                                                        <div class="item">
+                                                            <div class="mall-category-item">
+                                                                <a href="#">
+                                                                    <img class="img-fluid" src="img/list/2.png">
+                                                                    <h6>Sandwiches</h6>
+                                                                    <small>8 ITEMS</small>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="owl-item cloned" style="width: 136.4px;">
+                                                        <div class="item">
+                                                            <div class="mall-category-item">
+                                                                <a href="#">
+                                                                    <img class="img-fluid" src="img/list/3.png">
+                                                                    <h6>Soups</h6>
+                                                                    <small>2 ITEMS</small>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="owl-item cloned" style="width: 136.4px;">
+                                                        <div class="item">
+                                                            <div class="mall-category-item">
+                                                                <a href="#">
+                                                                    <img class="img-fluid" src="img/list/4.png">
+                                                                    <h6>Pizzas</h6>
+                                                                    <small>56 ITEMS</small>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="owl-item cloned" style="width: 136.4px;">
+                                                        <div class="item">
+                                                            <div class="mall-category-item">
+                                                                <a href="#">
+                                                                    <img class="img-fluid" src="img/list/5.png">
+                                                                    <h6>Pastas</h6>
+                                                                    <small>10 ITEMS</small>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="owl-nav">
+                                                <button type="button" role="presentation" class="owl-prev"><i
+                                                        class="icofont-thin-left"></i></button>
+                                                <button type="button" role="presentation" class="owl-next"><i
+                                                        class="icofont-thin-right"></i></button>
+                                            </div>
+                                            <div class="owl-dots disabled"></div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <h5 class="mb-4 mt-3 col-md-12">Best Sellers</h5>
+                                        <div class="col-md-4 col-sm-6 mb-4">
+                                            <div
+                                                class="list-card bg-white h-100 rounded overflow-hidden position-relative shadow-sm">
+                                                <div class="list-card-image">
+                                                    <div class="star position-absolute"><span
+                                                            class="badge badge-success"><i class="icofont-star"></i> 3.1
+                                                            (300+)</span></div>
+                                                    <div class="favourite-heart text-danger position-absolute"><a
+                                                            href="#"><i class="icofont-heart"></i></a></div>
+                                                    <div class="member-plan position-absolute"><span
+                                                            class="badge badge-dark">Promoted</span></div>
+                                                    <a href="#">
+                                                        <img src="img/list/7.png" class="img-fluid item-img">
+                                                    </a>
+                                                </div>
+                                                <div class="p-3 position-relative">
+                                                    <div class="list-card-body">
+                                                        <h6 class="mb-1"><a href="#" class="text-black">Bite Me
+                                                                Sandwiches</a></h6>
+                                                        <p class="text-gray mb-2">North Indian • Indian</p>
+                                                        <p class="text-gray time mb-0"><a
+                                                                class="btn btn-link btn-sm pl-0 text-black pr-0"
+                                                                href="#">$550 </a> <span
+                                                                class="badge badge-success">NEW</span> <span
+                                                                class="float-right">
+                                                                <a class="btn btn-outline-secondary btn-sm"
+                                                                    href="#">ADD</a>
+                                                            </span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-sm-6 mb-4">
+                                            <div
+                                                class="list-card bg-white h-100 rounded overflow-hidden position-relative shadow-sm">
+                                                <div class="list-card-image">
+                                                    <div class="star position-absolute"><span
+                                                            class="badge badge-success"><i class="icofont-star"></i> 3.1
+                                                            (300+)</span></div>
+                                                    <div class="favourite-heart text-danger position-absolute"><a
+                                                            href="#"><i class="icofont-heart"></i></a></div>
+                                                    <div class="member-plan position-absolute"><span
+                                                            class="badge badge-dark">Promoted</span></div>
+                                                    <a href="#">
+                                                        <img src="img/list/8.png" class="img-fluid item-img">
+                                                    </a>
+                                                </div>
+                                                <div class="p-3 position-relative">
+                                                    <div class="list-card-body">
+                                                        <h6 class="mb-1"><a href="#" class="text-black">Famous Dave's
+                                                                Bar-B
+                                                            </a>
+                                                        </h6>
+                                                        <p class="text-gray mb-2">Hamburgers • Indian</p>
+                                                        <p class="text-gray time mb-0"><a
+                                                                class="btn btn-link btn-sm pl-0 text-black pr-0"
+                                                                href="#">$250 </a> <span
+                                                                class="badge badge-primary">NEW</span> <span
+                                                                class="float-right">
+                                                                <span class="count-number">
+                                                                    <button
+                                                                        class="btn btn-outline-secondary  btn-sm left dec">
+                                                                        <i class="icofont-minus"></i> </button>
+                                                                    <input class="count-number-input" type="text"
+                                                                        value="1" readonly="">
+                                                                    <button
+                                                                        class="btn btn-outline-secondary btn-sm right inc">
+                                                                        <i class="icofont-plus"></i> </button>
+                                                                </span>
+                                                            </span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-sm-6 mb-4">
+                                            <div
+                                                class="list-card bg-white h-100 rounded overflow-hidden position-relative shadow-sm">
+                                                <div class="list-card-image">
+                                                    <div class="star position-absolute"><span
+                                                            class="badge badge-success"><i class="icofont-star"></i> 3.1
+                                                            (300+)</span></div>
+                                                    <div class="favourite-heart text-danger position-absolute"><a
+                                                            href="#"><i class="icofont-heart"></i></a></div>
+                                                    <div class="member-plan position-absolute"><span
+                                                            class="badge badge-dark">Promoted</span></div>
+                                                    <a href="#">
+                                                        <img src="img/list/9.png" class="img-fluid item-img">
+                                                    </a>
+                                                </div>
+                                                <div class="p-3 position-relative">
+                                                    <div class="list-card-body">
+                                                        <h6 class="mb-1"><a href="#" class="text-black">Bite Me
+                                                                Sandwiches</a></h6>
+                                                        <p class="text-gray mb-2">North Indian • Indian</p>
+                                                        <p class="text-gray time mb-0"><a
+                                                                class="btn btn-link btn-sm pl-0 text-black pr-0"
+                                                                href="#">$250 </a> <span
+                                                                class="badge badge-info">NEW</span> <span
+                                                                class="float-right">
+                                                                <a class="btn btn-outline-secondary btn-sm"
+                                                                    href="#">ADD</a>
+                                                            </span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <h5 class="mb-4 mt-3 col-md-12">Quick Bites <small class="h6 text-black-50">3
+                                                ITEMS</small></h5>
+                                        <div class="col-md-12">
+                                            <div class="bg-white rounded border shadow-sm mb-4">
+                                                <div class="gold-members p-3 border-bottom">
+                                                    <a class="btn btn-outline-secondary btn-sm  float-right"
+                                                        href="#">ADD</a>
+                                                    <div class="media">
+                                                        <div class="mr-3"><i
+                                                                class="icofont-ui-press text-danger food-item"></i>
+                                                        </div>
+                                                        <div class="media-body">
+                                                            <h6 class="mb-1">Chicken Tikka Sub</h6>
+                                                            <p class="text-gray mb-0">$314 - 12" (30 cm)</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="gold-members p-3 border-bottom">
+                                                    <span class="count-number float-right">
+                                                        <button class="btn btn-outline-secondary  btn-sm left dec"> <i
+                                                                class="icofont-minus"></i> </button>
+                                                        <input class="count-number-input" type="text" value="1"
+                                                            readonly="">
+                                                        <button class="btn btn-outline-secondary btn-sm right inc"> <i
+                                                                class="icofont-plus"></i> </button>
+                                                    </span>
+                                                    <div class="media">
+                                                        <div class="mr-3"><i
+                                                                class="icofont-ui-press text-danger food-item"></i>
+                                                        </div>
+                                                        <div class="media-body">
+                                                            <h6 class="mb-1">Cheese corn Roll <span
+                                                                    class="badge badge-danger">BESTSELLER</span></h6>
+                                                            <p class="text-gray mb-0">$600</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="gold-members p-3">
+                                                    <span class="count-number float-right">
+                                                        <button class="btn btn-outline-secondary  btn-sm left dec"> <i
+                                                                class="icofont-minus"></i> </button>
+                                                        <input class="count-number-input" type="text" value="1"
+                                                            readonly="">
+                                                        <button class="btn btn-outline-secondary btn-sm right inc"> <i
+                                                                class="icofont-plus"></i> </button>
+                                                    </span>
+                                                    <div class="media">
+                                                        <div class="mr-3"><i
+                                                                class="icofont-ui-press text-success food-item"></i>
+                                                        </div>
+                                                        <div class="media-body">
+                                                            <h6 class="mb-1">Cheese Spinach corn Roll <span
+                                                                    class="badge badge-success">Pure Veg</span></h6>
+                                                            <p class="text-gray mb-0">$600</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <h5 class="mb-4 mt-3 col-md-12">Starters <small class="h6 text-black-50">3
+                                                ITEMS</small></h5>
+                                        <div class="col-md-12">
+                                            <div class="bg-white rounded border shadow-sm mb-4">
+                                                <div class="menu-list p-3 border-bottom">
+                                                    <span class="count-number float-right">
+                                                        <button class="btn btn-outline-secondary  btn-sm left dec"> <i
+                                                                class="icofont-minus"></i> </button>
+                                                        <input class="count-number-input" type="text" value="1"
+                                                            readonly="">
+                                                        <button class="btn btn-outline-secondary btn-sm right inc"> <i
+                                                                class="icofont-plus"></i> </button>
+                                                    </span>
+                                                    <div class="media">
+                                                        <img class="mr-3 rounded-pill" src="img/5.jpg"
+                                                            alt="Generic placeholder image">
+                                                        <div class="media-body">
+                                                            <h6 class="mb-1">Veg Spring Roll</h6>
+                                                            <p class="text-gray mb-0">$314 - 12" (30 cm)</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="menu-list p-3 border-bottom">
+                                                    <span class="count-number float-right">
+                                                        <button class="btn btn-outline-secondary  btn-sm left dec"> <i
+                                                                class="icofont-minus"></i> </button>
+                                                        <input class="count-number-input" type="text" value="1"
+                                                            readonly="">
+                                                        <button class="btn btn-outline-secondary btn-sm right inc"> <i
+                                                                class="icofont-plus"></i> </button>
+                                                    </span>
+                                                    <div class="media">
+                                                        <img class="mr-3 rounded-pill" src="img/2.jpg"
+                                                            alt="Generic placeholder image">
+                                                        <div class="media-body">
+                                                            <h6 class="mb-1">Stuffed Mushroom <span
+                                                                    class="badge badge-danger">BESTSELLER</span></h6>
+                                                            <p class="text-gray mb-0">$600</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="menu-list p-3">
+                                                    <span class="count-number float-right">
+                                                        <button class="btn btn-outline-secondary  btn-sm left dec"> <i
+                                                                class="icofont-minus"></i> </button>
+                                                        <input class="count-number-input" type="text" value="1"
+                                                            readonly="">
+                                                        <button class="btn btn-outline-secondary btn-sm right inc"> <i
+                                                                class="icofont-plus"></i> </button>
+                                                    </span>
+                                                    <div class="media">
+                                                        <img class="mr-3 rounded-pill" src="img/3.jpg"
+                                                            alt="Generic placeholder image">
+                                                        <div class="media-body">
+                                                            <h6 class="mb-1">Honey Chilli Potato
+                                                                <span class="badge badge-success">Pure Veg</span>
+                                                            </h6>
+                                                            <p class="text-gray mb-0">$600</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <h5 class="mb-4 mt-3 col-md-12">Soups <small class="h6 text-black-50">8
+                                                ITEMS</small></h5>
+                                        <div class="col-md-12">
+                                            <div class="bg-white rounded border shadow-sm">
+                                                <div class="gold-members p-3 border-bottom">
+                                                    <a class="btn btn-outline-secondary btn-sm  float-right"
+                                                        href="#">ADD</a>
+                                                    <div class="media">
+                                                        <div class="mr-3"><i
+                                                                class="icofont-ui-press text-danger food-item"></i>
+                                                        </div>
+                                                        <div class="media-body">
+                                                            <h6 class="mb-1">Tomato Dhania Shorba</h6>
+                                                            <p class="text-gray mb-0">$314 - 12" (30 cm)</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="gold-members p-3 border-bottom">
+                                                    <a class="btn btn-outline-secondary btn-sm  float-right"
+                                                        href="#">ADD</a>
+                                                    <div class="media">
+                                                        <div class="mr-3"><i
+                                                                class="icofont-ui-press text-danger food-item"></i>
+                                                        </div>
+                                                        <div class="media-body">
+                                                            <h6 class="mb-1">Veg Manchow Soup</h6>
+                                                            <p class="text-gray mb-0">$600</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="gold-members p-3 border-bottom">
+                                                    <span class="count-number float-right">
+                                                        <button class="btn btn-outline-secondary  btn-sm left dec"> <i
+                                                                class="icofont-minus"></i> </button>
+                                                        <input class="count-number-input" type="text" value="1"
+                                                            readonly="">
+                                                        <button class="btn btn-outline-secondary btn-sm right inc"> <i
+                                                                class="icofont-plus"></i> </button>
+                                                    </span>
+                                                    <div class="media">
+                                                        <div class="mr-3"><i
+                                                                class="icofont-ui-press text-success food-item"></i>
+                                                        </div>
+                                                        <div class="media-body">
+                                                            <h6 class="mb-1">Lemon Coriander Soup</h6>
+                                                            <p class="text-gray mb-0">$600</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="gold-members p-3 border-bottom">
+                                                    <a class="btn btn-outline-secondary btn-sm  float-right"
+                                                        href="#">ADD</a>
+                                                    <div class="media">
+                                                        <div class="mr-3"><i
+                                                                class="icofont-ui-press text-danger food-item"></i>
+                                                        </div>
+                                                        <div class="media-body">
+                                                            <h6 class="mb-1">Tomato Dhania Shorba</h6>
+                                                            <p class="text-gray mb-0">$314 - 12" (30 cm)</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="gold-members p-3 border-bottom">
+                                                    <a class="btn btn-outline-secondary btn-sm  float-right"
+                                                        href="#">ADD</a>
+                                                    <div class="media">
+                                                        <div class="mr-3"><i
+                                                                class="icofont-ui-press text-danger food-item"></i>
+                                                        </div>
+                                                        <div class="media-body">
+                                                            <h6 class="mb-1">Veg Manchow Soup</h6>
+                                                            <p class="text-gray mb-0">$600</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="gold-members p-3">
+                                                    <a class="btn btn-outline-secondary btn-sm  float-right"
+                                                        href="#">ADD</a>
+                                                    <div class="media">
+                                                        <div class="mr-3"><i
+                                                                class="icofont-ui-press text-success food-item"></i>
+                                                        </div>
+                                                        <div class="media-body">
+                                                            <h6 class="mb-1">Lemon Coriander Soup</h6>
+                                                            <p class="text-gray mb-0">$600</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="pills-gallery" role="tabpanel"
+                                    aria-labelledby="pills-gallery-tab">
+                                    <div id="gallery" class="bg-white rounded shadow-sm p-4 mb-4">
+                                        <div
+                                            class="restaurant-slider-main position-relative homepage-great-deals-carousel">
+                                            <div
+                                                class="owl-carousel owl-theme homepage-ad owl-loaded owl-drag owl-hidden">
+
+                                                <div class="owl-stage-outer">
+                                                    <div class="owl-stage"
+                                                        style="transform: translate3d(-1364px, 0px, 0px); transition: all 0s ease 0s; width: 8184px;">
+                                                        <div class="owl-item cloned" style="width: 682px;">
+                                                            <div class="item">
+                                                                <img class="img-fluid" src="img/gallery/1.png">
+                                                            </div>
+                                                        </div>
+                                                        <div class="owl-item cloned" style="width: 682px;">
+                                                            <div class="item">
+                                                                <img class="img-fluid" src="img/gallery/2.png">
+                                                            </div>
+                                                        </div>
+                                                        <div class="owl-item cloned" style="width: 682px;">
+                                                            <div class="item">
+                                                                <img class="img-fluid" src="img/gallery/3.png">
+                                                            </div>
+                                                        </div>
+                                                        <div class="owl-item active" style="width: 682px;">
+                                                            <div class="item">
+                                                                <img class="img-fluid" src="img/gallery/1.png">
+                                                            </div>
+                                                        </div>
+                                                        <div class="owl-item" style="width: 682px;">
+                                                            <div class="item">
+                                                                <img class="img-fluid" src="img/gallery/2.png">
+                                                            </div>
+                                                        </div>
+                                                        <div class="owl-item" style="width: 682px;">
+                                                            <div class="item">
+                                                                <img class="img-fluid" src="img/gallery/3.png">
+                                                            </div>
+                                                        </div>
+                                                        <div class="owl-item" style="width: 682px;">
+                                                            <div class="item">
+                                                                <img class="img-fluid" src="img/gallery/1.png">
+                                                            </div>
+                                                        </div>
+                                                        <div class="owl-item" style="width: 682px;">
+                                                            <div class="item">
+                                                                <img class="img-fluid" src="img/gallery/2.png">
+                                                            </div>
+                                                        </div>
+                                                        <div class="owl-item" style="width: 682px;">
+                                                            <div class="item">
+                                                                <img class="img-fluid" src="img/gallery/3.png">
+                                                            </div>
+                                                        </div>
+                                                        <div class="owl-item cloned" style="width: 682px;">
+                                                            <div class="item">
+                                                                <img class="img-fluid" src="img/gallery/1.png">
+                                                            </div>
+                                                        </div>
+                                                        <div class="owl-item cloned" style="width: 682px;">
+                                                            <div class="item">
+                                                                <img class="img-fluid" src="img/gallery/2.png">
+                                                            </div>
+                                                        </div>
+                                                        <div class="owl-item cloned" style="width: 682px;">
+                                                            <div class="item">
+                                                                <img class="img-fluid" src="img/gallery/3.png">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="owl-nav">
+                                                    <button type="button" role="presentation" class="owl-prev"><i
+                                                            class="fa fa-chevron-left"></i></button>
+                                                    <button type="button" role="presentation" class="owl-next"><i
+                                                            class="fa fa-chevron-right"></i></button>
+                                                </div>
+                                                <div class="owl-dots disabled"></div>
+                                            </div>
+                                            <div class="position-absolute restaurant-slider-pics bg-dark text-white">2
+                                                of 14 Photos</div>
+                                            <div class="position-absolute restaurant-slider-view-all">
+                                                <button type="button" class="btn btn-light bg-white">See all
+                                                    Photos</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="pills-restaurant-info" role="tabpanel"
+                                    aria-labelledby="pills-restaurant-info-tab">
+                                    <div id="restaurant-info" class="bg-white rounded shadow-sm p-4 mb-4">
+                                        <div class="address-map float-right ml-5">
+                                            <div class="mapouter">
+                                                <div class="gmap_canvas">
+                                                    <iframe width="300" height="170" id="gmap_canvas"
+                                                        src="https://maps.google.com/maps?q=university%20of%20san%20francisco&amp;t=&amp;z=9&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
+                                                        frameborder="0" scrolling="no" marginheight="0"
+                                                        marginwidth="0"></iframe>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <h5 class="mb-4">Restaurant Info</h5>
+                                        <p class="mb-3">Jagjit Nagar, Near Railway Crossing,
+                                            <br> Near Model Town, Ludhiana, PUNJAB
+                                        </p>
+                                        <p class="mb-2 text-black"><i
+                                                class="icofont-phone-circle text-primary mr-2"></i> +91 01234-56789, +91
+                                            01234-56789</p>
+                                        <p class="mb-2 text-black"><i class="icofont-email text-primary mr-2"></i>
+                                            iamosahan@gmail.com, osahaneat@gmail.com</p>
+                                        <p class="mb-2 text-black"><i class="icofont-clock-time text-primary mr-2"></i>
+                                            Today 11am – 5pm, 6pm – 11pm
+                                            <span class="badge badge-success"> OPEN NOW </span>
+                                        </p>
+                                        <hr class="clearfix">
+                                        <p class="text-black mb-0">You can also check the 3D view by using our menue map
+                                            clicking here &nbsp;&nbsp;&nbsp; <a class="text-info font-weight-bold"
+                                                href="#">Venue Map</a></p>
+                                        <hr class="clearfix">
+                                        <h5 class="mt-4 mb-4">More Info</h5>
+                                        <p class="mb-3">Dal Makhani, Panneer Butter Masala, Kadhai Paneer, Raita, Veg
+                                            Thali, Laccha Paratha, Butter Naan</p>
+                                        <div class="border-btn-main mb-4">
+                                            <a class="border-btn text-success mr-2" href="#"><i
+                                                    class="icofont-check-circled"></i> Breakfast</a>
+                                            <a class="border-btn text-danger mr-2" href="#"><i
+                                                    class="icofont-close-circled"></i> No Alcohol Available</a>
+                                            <a class="border-btn text-success mr-2" href="#"><i
+                                                    class="icofont-check-circled"></i> Vegetarian Only</a>
+                                            <a class="border-btn text-success mr-2" href="#"><i
+                                                    class="icofont-check-circled"></i> Indoor Seating</a>
+                                            <a class="border-btn text-success mr-2" href="#"><i
+                                                    class="icofont-check-circled"></i> Breakfast</a>
+                                            <a class="border-btn text-danger mr-2" href="#"><i
+                                                    class="icofont-close-circled"></i> No Alcohol Available</a>
+                                            <a class="border-btn text-success mr-2" href="#"><i
+                                                    class="icofont-check-circled"></i> Vegetarian Only</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="pills-book" role="tabpanel"
+                                    aria-labelledby="pills-book-tab">
+                                    <div id="book-a-table"
+                                        class="bg-white rounded shadow-sm p-4 mb-5 rating-review-select-page">
+                                        <h5 class="mb-4">Book A Table</h5>
+                                        <form>
+                                            <div class="row">
+                                                <div class="col-sm-6">
+                                                    <div class="form-group">
+                                                        <label>Full Name</label>
+                                                        <input class="form-control" type="text"
+                                                            placeholder="Enter Full Name">
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <div class="form-group">
+                                                        <label>Email Address</label>
+                                                        <input class="form-control" type="text"
+                                                            placeholder="Enter Email address">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-6">
+                                                    <div class="form-group">
+                                                        <label>Mobile number</label>
+                                                        <input class="form-control" type="text"
+                                                            placeholder="Enter Mobile number">
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <div class="form-group">
+                                                        <label>Date And Time</label>
+                                                        <input class="form-control" type="text"
+                                                            placeholder="Enter Date And Time">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group text-right">
+                                                <button class="btn btn-primary" type="button"> Submit </button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade active show" id="pills-reviews" role="tabpanel"
+                                    aria-labelledby="pills-reviews-tab">
+                                    <!-- <div id="ratings-and-reviews" class="bg-white rounded shadow-sm p-4 mb-4 clearfix restaurant-detailed-star-rating">
+                                    <span class="star-rating float-right">
+                                            <a href="#"><i class="icofont-ui-rating icofont-2x active"></i></a>
+                                            <a href="#"><i class="icofont-ui-rating icofont-2x active"></i></a>
+                                            <a href="#"><i class="icofont-ui-rating icofont-2x active"></i></a>
+                                            <a href="#"><i class="icofont-ui-rating icofont-2x active"></i></a>
+                                            <a href="#"><i class="icofont-ui-rating icofont-2x"></i></a>
+                                            </span>
+                                    <h5 class="mb-0 pt-1">Rate this Place</h5>
+                                </div> -->
+                                    <div class="bg-white rounded shadow-sm p-4 mb-4 clearfix graph-star-rating">
+                                        <h5 class="mb-0 mb-4">Ratings and Reviews</h5>
+                                        <div class="graph-star-rating-header">
+                                            <div class="star-rating">
+                                                <a href="#"><i class="icofont-ui-rating active"></i></a>
+                                                <a href="#"><i class="icofont-ui-rating active"></i></a>
+                                                <a href="#"><i class="icofont-ui-rating active"></i></a>
+                                                <a href="#"><i class="icofont-ui-rating active"></i></a>
+                                                <a href="#"><i class="icofont-ui-rating"></i></a> <b
+                                                    class="text-black ml-2"></b>
+                                            </div>
+                                            <% for (let i=0; i < orderModel.length; i++) { %>
+                                                <% for (let j=0; j < orderModel[i].product_details.length; j++) { %>
+                                                    <img src="/admin-assets/imgs/<%= orderModel[i].product_details[j].image %>"
+                                                        alt="" height="50px" width="100px">
+                                                    <% } %>
+
+
+                                                        <span>
+                                                            <% for (let j=0; j < orderModel[i].product_details.length;
+                                                                j++) { %>
+                                                                <%= orderModel[i].product_details[j].product_name %>
+                                                                    <br>
+                                                                    <% } %>
+                                                        </span>
+                                                        <% } %>
+                                                            <br><br>
+
+
+                                                           
+
+                                     
+                                                            <form action="/updateReview" method="post">
+
+                                                                <div class="container1">
+                                                                    <div class="row1">
+
+                                                                    </div>
+
+                                                                    <div class="row1 lead">
+                                                                        <label>Select a Star Rating:</label>
+                                                                        <br>
+                                                                        <input type="radio" name="rating" value="1"> <i class="fa-solid fa-star"style="color: #d3de43;"></i>
+                                                                        <br>
+                                                                        <br>
+                                                                        <input type="radio" name="rating" value="2"> <i class="fa-solid fa-star"style="color: #d3de43;"></i><i class="fa-solid fa-star" style="color: #d3de43;"></i>
+                                                                        <br>
+                                                                        <br>
+                                                                        <input type="radio" name="rating" value="3">
+                                                                        <i class="fa-solid fa-star" style="color: #d3de43;"></i><i class="fa-solid fa-star" style="color: #d3de43;"></i><i class="fa-solid fa-star" style="color: #d3de43;"></i>
+                                                                        <br>
+                                                                        <br>
+                                                                        <input type="radio" name="rating" value="4">
+                                                                        <i class="fa-solid fa-star"style="color: #d3de43;"></i><i class="fa-solid fa-star" style="color: #d3de43;"></i><i class="fa-solid fa-star" style="color: #d3de43;"></i><i class="fa-solid fa-star" style="color: #d3de43;"></i>
+                                                                        <br>
+                                                                        <br>
+                                                                        <input type="radio" name="rating" value="5">
+                                                                        <i class="fa-solid fa-star"style="color: #d3de43;"></i><i class="fa-solid fa-star"style="color: #d3de43;"></i><i class="fa-solid fa-star" style="color: #d3de43;"></i><i class="fa-solid fa-star" style="color: #d3de43;"></i><i class="fa-solid fa-star"style="color: #d3de43;"></i>
+                                                                        <br>
+                                                                        <br>
+
+                                                                        
+                                                                    </div>
+
+
+                                                                </div>
+                                        </div>
+                                        <!-- <div class="graph-star-rating-body">
+                                    <div class="rating-list">
+                                        <div class="rating-list-left text-black">
+                                            5 Star
+                                        </div>
+                                        <div class="rating-list-center">
+                                            <div class="progress">
+                                                <div style="width: 56%" aria-valuemax="5" aria-valuemin="0" aria-valuenow="5" role="progressbar" class="progress-bar bg-primary">
+                                                    <span class="sr-only">80% Complete (danger)</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="rating-list-right text-black">56%</div>
+                                    </div>
+                                    <div class="rating-list">
+                                        <div class="rating-list-left text-black">
+                                            4 Star
+                                        </div>
+                                        <div class="rating-list-center">
+                                            <div class="progress">
+                                                <div style="width: 23%" aria-valuemax="5" aria-valuemin="0" aria-valuenow="5" role="progressbar" class="progress-bar bg-primary">
+                                                    <span class="sr-only">80% Complete (danger)</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="rating-list-right text-black">23%</div>
+                                    </div>
+                                    <div class="rating-list">
+                                        <div class="rating-list-left text-black">
+                                            3 Star
+                                        </div>
+                                        <div class="rating-list-center">
+                                            <div class="progress">
+                                                <div style="width: 11%" aria-valuemax="5" aria-valuemin="0" aria-valuenow="5" role="progressbar" class="progress-bar bg-primary">
+                                                    <span class="sr-only">80% Complete (danger)</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="rating-list-right text-black">11%</div>
+                                    </div>
+                                    <div class="rating-list">
+                                        <div class="rating-list-left text-black">
+                                            2 Star
+                                        </div>
+                                        <div class="rating-list-center">
+                                            <div class="progress">
+                                                <div style="width: 2%" aria-valuemax="5" aria-valuemin="0" aria-valuenow="5" role="progressbar" class="progress-bar bg-primary">
+                                                    <span class="sr-only">80% Complete (danger)</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="rating-list-right text-black">02%</div>
+                                    </div>
+                                </div> -->
+                                        <!-- <div class="graph-star-rating-footer text-center mt-3 mb-3">
+                                            <button type="button" class="btn btn-outline-primary btn-sm">Rate and
+                                                Review</button>
+                                        </div> -->
+                                    </div>
+                                    <!-- <div
+                                        class="bg-white rounded shadow-sm p-4 mb-4 restaurant-detailed-ratings-and-reviews">
+                                        <a href="#" class="btn btn-outline-primary btn-sm float-right">Top Rated</a>
+                                        <h5 class="mb-1">All Ratings and Reviews</h5>
+                                        <div class="reviews-members pt-4 pb-4">
+                                            <div class="media">
+                                                <a href="#"><img alt="Generic placeholder image"
+                                                        src="http://bootdey.com/img/Content/avatar/avatar1.png"
+                                                        class="mr-3 rounded-pill"></a>
+                                                <div class="media-body">
+                                                    <div class="reviews-members-header">
+                                                        <span class="star-rating float-right">
+                                                            <a href="#"><i class="icofont-ui-rating active"></i></a>
+                                                            <a href="#"><i class="icofont-ui-rating active"></i></a>
+                                                            <a href="#"><i class="icofont-ui-rating active"></i></a>
+                                                            <a href="#"><i class="icofont-ui-rating active"></i></a>
+                                                            <a href="#"><i class="icofont-ui-rating"></i></a>
+                                                        </span>
+                                                        <h6 class="mb-1"><a class="text-black" href="#">Singh Osahan</a>
+                                                        </h6>
+                                                        <p class="text-gray">Tue, 20 Mar 2020</p>
+                                                    </div>
+                                                    <div class="reviews-members-body">
+                                                        <p>Contrary to popular belief, Lorem Ipsum is not simply random
+                                                            text. It has roots in a piece of classical Latin literature
+                                                            from 45 BC, making it over 2000 years old. Richard
+                                                            McClintock, a Latin professor at Hampden-Sydney College in
+                                                            Virginia, looked up one of the more obscure Latin words,
+                                                            consectetur, from a Lorem Ipsum passage, and going through
+                                                            the cites of the word in classical literature, discovered
+                                                            the undoubtable source. Lorem Ipsum comes from sections </p>
+                                                    </div>
+                                                    <div class="reviews-members-footer">
+                                                        <a class="total-like" href="#"><i class="icofont-thumbs-up"></i>
+                                                            856M</a> <a class="total-like" href="#"><i
+                                                                class="icofont-thumbs-down"></i> 158K</a>
+                                                        <span class="total-like-user-main ml-2" dir="rtl">
+                                                            <a data-toggle="tooltip" data-placement="top" title=""
+                                                                href="#" data-original-title="Gurdeep Osahan"><img
+                                                                    alt="Generic placeholder image"
+                                                                    src="http://bootdey.com/img/Content/avatar/avatar5.png"
+                                                                    class="total-like-user rounded-pill"></a>
+                                                            <a data-toggle="tooltip" data-placement="top" title=""
+                                                                href="#" data-original-title="Gurdeep Singh"><img
+                                                                    alt="Generic placeholder image"
+                                                                    src="http://bootdey.com/img/Content/avatar/avatar2.png"
+                                                                    class="total-like-user rounded-pill"></a>
+                                                            <a data-toggle="tooltip" data-placement="top" title=""
+                                                                href="#" data-original-title="Askbootstrap"><img
+                                                                    alt="Generic placeholder image"
+                                                                    src="http://bootdey.com/img/Content/avatar/avatar3.png"
+                                                                    class="total-like-user rounded-pill"></a>
+                                                            <a data-toggle="tooltip" data-placement="top" title=""
+                                                                href="#" data-original-title="Osahan"><img
+                                                                    alt="Generic placeholder image"
+                                                                    src="http://bootdey.com/img/Content/avatar/avatar4.png"
+                                                                    class="total-like-user rounded-pill"></a>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <div class="reviews-members pt-4 pb-4">
+                                            <div class="media">
+                                                <a href="#"><img alt="Generic placeholder image"
+                                                        src="http://bootdey.com/img/Content/avatar/avatar6.png"
+                                                        class="mr-3 rounded-pill"></a>
+                                                <div class="media-body">
+                                                    <div class="reviews-members-header">
+                                                        <span class="star-rating float-right">
+                                                            <a href="#"><i class="icofont-ui-rating active"></i></a>
+                                                            <a href="#"><i class="icofont-ui-rating active"></i></a>
+                                                            <a href="#"><i class="icofont-ui-rating active"></i></a>
+                                                            <a href="#"><i class="icofont-ui-rating active"></i></a>
+                                                            <a href="#"><i class="icofont-ui-rating"></i></a>
+                                                        </span>
+                                                        <h6 class="mb-1"><a class="text-black" href="#">Gurdeep
+                                                                Singh</a></h6>
+                                                        <p class="text-gray">Tue, 20 Mar 2020</p>
+                                                    </div>
+                                                    <div class="reviews-members-body">
+                                                        <p>It is a long established fact that a reader will be
+                                                            distracted by the readable content of a page when looking at
+                                                            its layout. The point of using Lorem Ipsum is that it has a
+                                                            more-or-less normal distribution of letters, as opposed to
+                                                            using 'Content here, content here', making it look like
+                                                            readable English.</p>
+                                                    </div>
+                                                    <div class="reviews-members-footer">
+                                                        <a class="total-like" href="#"><i class="icofont-thumbs-up"></i>
+                                                            88K</a> <a class="total-like" href="#"><i
+                                                                class="icofont-thumbs-down"></i> 1K</a>
+                                                        <span class="total-like-user-main ml-2" dir="rtl">
+                                                            <a data-toggle="tooltip" data-placement="top" title=""
+                                                                href="#" data-original-title="Gurdeep Osahan"><img
+                                                                    alt="Generic placeholder image"
+                                                                    src="http://bootdey.com/img/Content/avatar/avatar5.png"
+                                                                    class="total-like-user rounded-pill"></a>
+                                                            <a data-toggle="tooltip" data-placement="top" title=""
+                                                                href="#" data-original-title="Gurdeep Singh"><img
+                                                                    alt="Generic placeholder image"
+                                                                    src="http://bootdey.com/img/Content/avatar/avatar2.png"
+                                                                    class="total-like-user rounded-pill"></a>
+                                                            <a data-toggle="tooltip" data-placement="top" title=""
+                                                                href="#" data-original-title="Askbootstrap"><img
+                                                                    alt="Generic placeholder image"
+                                                                    src="http://bootdey.com/img/Content/avatar/avatar3.png"
+                                                                    class="total-like-user rounded-pill"></a>
+                                                            <a data-toggle="tooltip" data-placement="top" title=""
+                                                                href="#" data-original-title="Osahan"><img
+                                                                    alt="Generic placeholder image"
+                                                                    src="http://bootdey.com/img/Content/avatar/avatar4.png"
+                                                                    class="total-like-user rounded-pill"></a>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <a class="text-center w-100 d-block mt-4 font-weight-bold" href="#">See All
+                                            Reviews</a>
+                                    </div> -->
+                                    <div class="bg-white rounded shadow-sm p-4 mb-5 rating-review-select-page">
+                                        <!-- <div class="mb-4">
+                                            <span class="star-rating">
+                                                <a href="#"><i class="icofont-ui-rating icofont-2x"></i></a>
+                                                <a href="#"><i class="icofont-ui-rating icofont-2x"></i></a>
+                                                <a href="#"><i class="icofont-ui-rating icofont-2x"></i></a>
+                                                <a href="#"><i class="icofont-ui-rating icofont-2x"></i></a>
+                                                <a href="#"><i class="icofont-ui-rating icofont-2x"></i></a>
+                                            </span>
+                                        </div>
+                                        -->
+                                        <div class="form-group">
+                                            <label>Your Comment</label>
+                                            <textarea class="form-control" name="review"></textarea>
+                                        </div>
+                                        <div class="form-group">
+                                            <button class="btn btn-primary btn-sm" type="submit"> Submit Comment
+                                            </button>
+                                        </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+            <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+            <script>
+                // Starrr plugin (https://github.com/dobtco/starrr)
+                var __slice = [].slice;
+
+                (function ($, window) {
+                    var Starrr;
+
+                    Starrr = (function () {
+                        Starrr.prototype.defaults = {
+                            rating: void 0,
+                            numStars: 5,
+                            change: function (e, value) { }
+                        };
+
+                        function Starrr($el, options) {
+                            var i, _, _ref,
+                                _this = this;
+
+                            this.options = $.extend({}, this.defaults, options);
+                            this.$el = $el;
+                            _ref = this.defaults;
+                            for (i in _ref) {
+                                _ = _ref[i];
+                                if (this.$el.data(i) != null) {
+                                    this.options[i] = this.$el.data(i);
+                                }
+                            }
+                            this.createStars();
+                            this.syncRating();
+                            this.$el.on('mouseover.starrr', 'span', function (e) {
+                                return _this.syncRating(_this.$el.find('span').index(e.currentTarget) + 1);
+                            });
+                            this.$el.on('mouseout.starrr', function () {
+                                return _this.syncRating();
+                            });
+                            this.$el.on('click.starrr', 'span', function (e) {
+                                return _this.setRating(_this.$el.find('span').index(e.currentTarget) + 1);
+                            });
+                            this.$el.on('starrr:change', this.options.change);
+                        }
+
+                        Starrr.prototype.createStars = function () {
+                            var _i, _ref, _results;
+
+                            _results = [];
+                            for (_i = 1, _ref = this.options.numStars; 1 <= _ref ? _i <= _ref : _i >= _ref; 1 <= _ref ? _i++ : _i--) {
+                                _results.push(this.$el.append("<span class='glyphicon .glyphicon-star-empty'></span>"));
+                            }
+                            return _results;
+                        };
+
+                        Starrr.prototype.setRating = function (rating) {
+                            if (this.options.rating === rating) {
+                                rating = void 0;
+                            }
+                            this.options.rating = rating;
+                            this.syncRating();
+                            return this.$el.trigger('starrr:change', rating);
+                        };
+
+                        Starrr.prototype.syncRating = function (rating) {
+                            var i, _i, _j, _ref;
+
+                            rating || (rating = this.options.rating);
+                            if (rating) {
+                                for (i = _i = 0, _ref = rating - 1; 0 <= _ref ? _i <= _ref : _i >= _ref; i = 0 <= _ref ? ++_i : --_i) {
+                                    this.$el.find('span').eq(i).removeClass('glyphicon-star-empty').addClass('glyphicon-star');
+                                }
+                            }
+                            if (rating && rating < 5) {
+                                for (i = _j = rating; rating <= 4 ? _j <= 4 : _j >= 4; i = rating <= 4 ? ++_j : --_j) {
+                                    this.$el.find('span').eq(i).removeClass('glyphicon-star').addClass('glyphicon-star-empty');
+                                }
+                            }
+                            if (!rating) {
+                                return this.$el.find('span').removeClass('glyphicon-star').addClass('glyphicon-star-empty');
+                            }
+                        };
+
+                        return Starrr;
+
+                    })();
+                    return $.fn.extend({
+                        starrr: function () {
+                            var args, option;
+
+                            option = arguments[0], args = 2 <= arguments.length ? __slice.call(arguments, 1) : [];
+                            return this.each(function () {
+                                var data;
+
+                                data = $(this).data('star-rating');
+                                if (!data) {
+                                    $(this).data('star-rating', (data = new Starrr($(this), option)));
+                                }
+                                if (typeof option === 'string') {
+                                    return data[option].apply(data, args);
+                                }
+                            });
+                        }
+                    });
+                })(window.jQuery, window);
+
+                $(function () {
+                    return $(".starrr").starrr();
+                });
+
+                $(document).ready(function () {
+
+                    $('#stars').on('starrr:change', function (e, value) {
+                        $('#count').html(value);
+                    });
+
+                    $('#stars-existing').on('starrr:change', function (e, value) {
+                        $('#count-existing').html(value);
+                    });
+                });
+            </script>
+    </body>
+
+</html>

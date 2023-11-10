@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice</title>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="icon" type="image/png" href="/user_assets/ridestyle/img/favicon.ico@1324977642">
+
+</head>
+<style>
+    .invoice-title h2, .invoice-title h3 {
+    display: inline-block;
+}
+
+.table > tbody > tr > .no-line {
+    border-top: none;
+}
+
+.table > thead > tr > .no-line {
+    border-bottom: none;
+}
+
+.table > tbody > tr > .thick-line {
+    border-top: 2px solid;
+}
+</style>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="invoice-title">
+                    <h2>Invoice</h2><h3 class="pull-right">Order #<%=orderDetail._id %>45</h3>
+                    <div class="text-logo">    <span style="font-family: 'Arial', sans-serif; font-weight: bold; font-size: 24px; color: #333;">TIREX</span>
+                    </div>
+                    
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-xs-6">
+                        <address>
+                           <h4 style="font-weight: 600;">Customer</h4>
+                            <strong>
+                                <%= orderDetail.user_name %>
+                                   
+                            </strong><br>
+                            <%= orderDetail.order_address.mobile %><br>
+                                
+                        </address>
+                    </div>
+                    <div class="col-xs-6 text-right">
+                        <address>
+                            <h4 style="font-weight: 600;">Shipped to</h4>
+                            <strong>
+                                <%= orderDetail.order_address.firstname %>
+                                    <%= orderDetail.order_address.lastname %>
+                            </strong><br>
+                            <%= orderDetail.order_address.mobile %><br>
+                                <%= orderDetail.order_address.address %><br>
+                                    <%= orderDetail.order_address.town %><br>
+                                        <%= orderDetail.order_address.state %>, <%=
+                                                orderDetail.order_address.pincode %>
+                        </address>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-6">
+                        <address>
+                            <strong>Payment Method:</strong><br>
+                            <%= orderDetail.payment_type %> <br>
+                           <%= user.email %>
+                        </address>
+                    </div>
+                    <div class="col-xs-6 text-right">
+                        <address>
+                            <strong>Order Date:</strong><br>
+                            <% const orderDate=new Date(orderDetail.order_date); %>
+                                                        <% if (!isNaN(orderDate)) { %>
+                                                            <%= orderDate.toISOString().split('T')[0] %>
+                                                                <% } else { %>
+                                                                    <%= orderDetail.order_date %>
+                                                                        <% } %>
+                                                                    
+                        </address>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><strong>Order summary</strong></h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="table-responsive">
+                            <table class="table table-condensed">
+                                <thead>
+                                    <tr>
+                                        <th>Image</th>
+                                        <th>Item</th>
+                                        <th class="text-center">Price</th>
+                                        <th class="text-center">Quantity</th>
+                                        <th class="text-right">Total</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <% for (let j=0; j < orderDetail.product_details.length; j++) { %>
+                                    <tr>
+                                        <td>
+                                            <img src="/admin-assets/imgs/<%= orderDetail.product_details[j].image %>" alt="Product Image" height="50px" width="100px">
+                                        </td>
+                                        <td><%= orderDetail.product_details[j].product_name %></td>
+                                        <td class="text-center">₹ <%= orderDetail.product_details[j].offer_price %>/-</td>
+                                        <td class="text-center"><%= orderDetail.product_details[j].quantity %></td>
+                                        <td class="text-right">₹<%= orderDetail.product_details[j].offer_price * orderDetail.product_details[j].quantity %>/-</td>
+                                    </tr>
+                                    <% } %>
+                            
+                                    <tr>
+                                        <td colspan="3"></td>
+                                        <td class="text-center"><strong>Subtotal</strong></td>
+                                        <td class="text-right">₹<%= orderDetail.total_price %>/-</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="3"></td>
+                                        <td class="text-center"><strong>Total</strong></td>
+                                        <td class="text-right">₹<%= orderDetail.total_price %>/-</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            
+                            <button id="downloadButton" onclick="download()" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; cursor: pointer; border-radius: 5px;">Download PDF</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+
+    <script>
+        function download() {
+            var element = document.body; // Select the entire page
+           
+        
+            let randomNumber = Math.floor(Math.random() * (10000000000 - 1)) + 1;
+        
+            setTimeout(function () {
+                var opt = {
+                    margin: 0,
+                    filename: 'Invoice' + randomNumber + '.pdf',
+                    html2canvas: { scale: 3 }, // Adjust the scale as needed
+                    jsPDF: { unit: 'in', format: [20, 15], orientation: 'portrait' } // Set custom page size
+                };
+        
+                html2pdf().set(opt).from(element).save();
+            }, 1000); // Adjust the delay as needed
+        }
+        </script>
+        
+
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+</body>
+</html>

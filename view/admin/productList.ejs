@@ -1,0 +1,517 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+
+<!-- Mirrored from wp.alithemes.com/html/evara/evara-backend/page-products-list.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 01 Aug 2021 15:33:00 GMT -->
+
+<head>
+    <meta charset="utf-8">
+    <title>TIREX | product list</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="admin-assets/imgs/theme/favicon.svg">
+    <!-- Template CSS -->
+    <link href="admin-assets/css/main.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="screen-overlay"></div>
+    <aside class="navbar-aside" id="offcanvas_aside">
+        <div class="d-flex justify-content-between align-items-center">
+            <a href="/admin/dashboard" class="brand-wrap">
+                <img src="/admin-assets/imgs/theme/logo-2.png" class="img-fluid logo" alt="TIREX">
+            </a>
+            <div>
+                <button class="btn btn-icon btn-aside-minimize">
+                    <i class="text-muted material-icons md-menu_open"></i>
+                </button>
+            </div>
+        </div>
+        
+        <nav>
+            <ul class="menu-aside">
+                <li class="menu-item">
+                    <a class="menu-link" href="/admin/dashboard"> <i class="icon material-icons md-home"></i>
+                        <span class="text">Dashboard</span>
+                    </a>
+                </li>
+                <!-- <li class="menu-item has-submenu">
+                    <a class="menu-link" href="page-products-list.html"> <i
+                            class="icon material-icons md-shopping_bag"></i>
+                        <span class="text">Products</span>
+                    </a>
+                    <div class="submenu">
+                        <a href="page-products-list.html">Product List</a>
+                        <a href="page-products-grid.html">Product grid</a>
+                        <a href="page-products-grid-2.html">Product grid 2</a>
+                        <a href="page-categories.html">Categories</a>
+                    </div>
+                </li>
+                <li class="menu-item has-submenu">
+                    <a class="menu-link" href="page-orders-1.html"> <i class="icon material-icons md-shopping_cart"></i>
+                        <span class="text">Orders</span>
+                    </a>
+                    <div class="submenu">
+                        <a href="page-orders-1.html">Order list 1</a>
+                        <a href="page-orders-2.html">Order list 2</a>
+                        <a href="page-orders-detail.html">Order detail</a>
+                    </div>
+                </li>
+                <li class="menu-item has-submenu">
+                    <a class="menu-link" href="page-sellers-cards.html"> <i class="icon material-icons md-store"></i>
+                        <span class="text">Sellers</span>
+                    </a>
+                    <div class="submenu">
+                        <a href="page-sellers-cards.html">Sellers cards</a>
+                        <a href="page-sellers-list.html">Sellers list</a>
+                        <a href="page-seller-detail.html">Seller profile</a>
+                    </div>
+                </li> -->
+                <li class="menu-item has-submenu">
+                    <a class="menu-link" href="page-sellers-cards.html"> <i class="icon material-icons md-person"></i>
+                        <span class="text">User</span>
+                    </a>
+                    <div class="submenu">
+                        <a href="/admin/userlist">User list</a>
+                        <!-- <a href="page-sellers-list.html">Sellers list</a>
+                        <a href="page-seller-detail.html">Seller profile</a> -->
+                    </div>
+                </li>
+                <li class="menu-item has-submenu">
+                    <a class="menu-link" href="page-sellers-cards.html"> <i class="icon material-icons md-person"></i>
+                        <span class="text">Order Management</span>
+                    </a>
+                    <div class="submenu">
+                        <a class="" href="/admin/orderList">Order list </a>
+                        <!-- <a href="page-sellers-list.html">Sellers list</a>
+                        <a href="page-seller-detail.html">Seller profile</a> -->
+                    </div>
+                </li>
+                <li class="menu-item has-submenu">
+                    <a class="menu-link" href="page-sellers-cards.html"> <i class="icon material-icons md-person"></i>
+                        <span class="text">Coupen Management</span>
+                    </a>
+                    <div class="submenu">
+                        <a href="/admin/coupen">Add coupen</a>
+                        <a href="/admin/coupenlist">Coupen List</a>
+                        <!-- <a href="page-sellers-list.html">Sellers list</a>
+                        <a href="page-seller-detail.html">Seller profile</a> -->
+                    </div>
+                </li>
+                <li class="menu-item has-submenu">
+                    <a class="menu-link" href="page-sellers-cards.html"> <i class="icon material-icons md-person"></i>
+                        <span class="text">Banner Management</span>
+                    </a>
+                    <div class="submenu">
+                        <a href="/admin/banner">Add Banner</a>
+                        <a href="/admin/bannerList">Banner List</a>
+                        <!-- <a href="page-sellers-list.html">Sellers list</a>
+                        <a href="page-seller-detail.html">Seller profile</a> -->
+                    </div>
+                </li>
+                <li class="menu-item has-submenu">
+                    <a class="menu-link" href="/admin/Category"> <i class="icon material-icons md-add_box"></i>
+                        <span class="text">Add Categories</span>
+                    </a>
+                    <div class="submenu">
+                        <a href="/admin/Category">Add Categories</a>
+                        <a href="/admin/Categorylist">CategoriesList</a>
+
+                    </div>
+                </li>
+                <li class="menu-item has-submenu active">
+                    <a class="menu-link" href="page-form-product-1.html"> <i
+                            class="icon material-icons md-shopping_bag"></i>
+                        <span class="text">Add product</span>
+                    </a>
+                    <div class="submenu">
+                        <a href="/admin/product">Add product</a>
+                        <a class="active" href="/admin/productlist">Product list</a>
+
+                    </div>
+                </li>
+                <li class="menu-item has-submenu">
+                    <a class="menu-link" href="page-form-product-1.html"> <i
+                            class="icon material-icons md-shopping_bag"></i>
+                        <span class="text">Sales Report</span>
+                    </a>
+                    <div class="submenu">
+                        <a href="/admin/salesReport">Total sales Report</a>
+
+                    </div>
+                </li>
+               
+                <!-- <li class="menu-item has-submenu">
+                    <a class="menu-link" href="page-transactions-1.html"> <i
+                            class="icon material-icons md-monetization_on"></i>
+                        <span class="text">Transactions</span>
+                    </a>
+                    <div class="submenu">
+                        <a href="page-transactions-1.html">Transaction 1</a>
+                        <a href="page-transactions-2.html">Transaction 2</a>
+                    </div>
+                </li>
+                <li class="menu-item has-submenu">
+                    <a class="menu-link" href="#"> <i class="icon material-icons md-person"></i>
+                        <span class="text">Account</span>
+                    </a>
+                    <div class="submenu">
+                        <a href="page-account-login.html">User login</a>
+                        <a href="page-account-register.html">User registration</a>
+                        <a href="page-error-404.html">Error 404</a>
+                    </div>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-link" href="page-reviews.html"> <i class="icon material-icons md-comment"></i>
+                        <span class="text">Reviews</span>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-link" href="page-brands.html"> <i class="icon material-icons md-stars"></i>
+                        <span class="text">Brands</span> </a>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-link" disabled href="#"> <i class="icon material-icons md-pie_chart"></i>
+                        <span class="text">Statistics</span>
+                    </a>
+                </li>
+            </ul>
+            <hr>
+            <ul class="menu-aside">
+                <li class="menu-item has-submenu">
+                    <a class="menu-link" href="#"> <i class="icon material-icons md-settings"></i>
+                        <span class="text">Settings</span>
+                    </a>
+                    <div class="submenu">
+                        <a href="page-settings-1.html">Setting sample 1</a>
+                        <a href="page-settings-2.html">Setting sample 2</a>
+                    </div>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-link" href="page-blank.html"> <i class="icon material-icons md-local_offer"></i>
+                        <span class="text"> Starter page </span>
+                    </a>
+                </li>
+            </ul>
+            <br>
+            <br> -->
+        </nav>
+    </aside>
+    <main class="main-wrap">
+        <header class="main-header navbar">
+            <div class="col-search">
+                <form class="searchform">
+                    <div class="input-group">
+                        <input list="search_terms" type="text" class="form-control" placeholder="Search term">
+                        <button class="btn btn-light bg" type="button"> <i
+                                class="material-icons md-search"></i></button>
+                    </div>
+                    <datalist id="search_terms">
+                        <option value="Products">
+                        <option value="New orders">
+                        <option value="Apple iphone">
+                        <option value="Ahmed Hassan">
+                    </datalist>
+                </form>
+            </div>
+            <div class="col-nav">
+                <button class="btn btn-icon btn-mobile me-auto" data-trigger="#offcanvas_aside"> <i
+                        class="material-icons md-apps"></i> </button>
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link btn-icon" href="#">
+                            <i class="material-icons md-notifications animation-shake"></i>
+                            <span class="badge rounded-pill">3</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn-icon darkmode" href="#"> <i class="material-icons md-nights_stay"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="requestfullscreen nav-link btn-icon"><i
+                                class="material-icons md-cast"></i></a>
+                    </li>
+                    <li class="dropdown nav-item">
+                        <a class="dropdown-toggle" data-bs-toggle="dropdown" href="#" id="dropdownLanguage"
+                            aria-expanded="false"><i class="material-icons md-public"></i></a>
+                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownLanguage">
+                            <a class="dropdown-item text-brand" href="#"><img src="admin-assets/imgs/theme/flag-us.png"
+                                    alt="English">English</a>
+                            <a class="dropdown-item" href="#"><img src="admin-assets/imgs/theme/flag-fr.png"
+                                    alt="Français">Français</a>
+                            <a class="dropdown-item" href="#"><img src="admin-assets/imgs/theme/flag-jp.png"
+                                    alt="Français">日本語</a>
+                            <a class="dropdown-item" href="#"><img src="admin-assets/imgs/theme/flag-cn.png"
+                                    alt="Français">中国人</a>
+                        </div>
+                    </li>
+                    <li class="dropdown nav-item">
+                        <a class="dropdown-toggle" data-bs-toggle="dropdown" href="#" id="dropdownAccount"
+                            aria-expanded="false"> <img class="img-xs rounded-circle"
+                                src="admin-assets/imgs/people/avatar2.jpg" alt="User"></a>
+                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownAccount">
+                            <a class="dropdown-item" href="#"><i class="material-icons md-perm_identity"></i>Edit
+                                Profile</a>
+                            <a class="dropdown-item" href="#"><i class="material-icons md-settings"></i>Account
+                                Settings</a>
+                            <a class="dropdown-item" href="#"><i
+                                    class="material-icons md-account_balance_wallet"></i>Wallet</a>
+                            <a class="dropdown-item" href="#"><i class="material-icons md-receipt"></i>Billing</a>
+                            <a class="dropdown-item" href="#"><i class="material-icons md-help_outline"></i>Help
+                                center</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item text-danger" href="/admin/logout"><i
+                                    class="material-icons md-exit_to_app"></i>Logout</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <section class="content-main">
+            <div class="content-header">
+                <div>
+                    <h2 class="content-title card-title">Products List</h2>
+                   
+                </div>
+                <div>
+                    <a href="/admin/product" class="btn btn-primary btn-sm rounded">Create new</a>
+                </div>
+            </div>
+            <div class="card mb-4">
+                <header class="card-header">
+                    <div class="row align-items-center">
+                        <div class="col col-check flex-grow-0">
+                            <div class="form-check ms-2">
+
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-12 me-auto mb-md-0 mb-3">
+                            <select class="form-select">
+                                <option selected>All category</option>
+                                <option>Electronics</option>
+                                <option>Clothes</option>
+                                <option>Automobile</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2 col-6">
+                            <input type="date" value="02.05.2021" class="form-control">
+                        </div>
+                        <div class="col-md-2 col-6">
+                            <select id="priceSort" class="form-select">
+                                <option value="default" selected>Filter by Price</option>
+                                <option value="lowToHigh">Price Low to High</option>
+                                <option value="highToLow">Price High to Low</option>
+                            </select>
+                        </div>
+                    </div>
+                </header> <!-- card-header end// -->
+
+
+
+                <div class="table-responsive">
+                    <% const rowsPerPage = 5; // Number of items per page %>
+                    <% const currentPages = parseInt(currentPage) || 1; // Get the current page from the query parameter %>
+                    <% const startIndex = (currentPage - 1) * rowsPerPage; %>
+                    <% const endIndex = Math.min(currentPages * rowsPerPage, products.length); %>
+                
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Image</th>
+                                <th>Product Name</th>
+                                <th>Brand</th>
+                                <th>Price</th>
+                                <th>Status</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <% for (let i = startIndex; i < endIndex; i++) { %>
+                                <tr>
+                                    <td>
+                                        <img src="admin-assets/imgs/<%= products[i].images[0] %>" class="img-sm img-thumbnail" alt="Item">
+                                    </td>
+                                    <td>
+                                        <%= products[i].productName %>
+                                    </td>
+                                    <td>
+                                        <%= products[i].brandName %>
+                                    </td>
+                                    <td>
+                                        ₹<%= products[i].salePrice %>
+                                    </td>
+                                    <td>
+                                        <% if (products[i].isblocked === false) { %>
+                                            <span class="badge rounded-pill alert-success">Active</span>
+                                        <% } else { %>
+                                            <span class="badge rounded-pill alert-danger">Inactive</span>
+                                        <% } %>
+                                    </td>
+                                    <td>
+                                        <a href="/admin/findid/?id=<%= products[i]._id %>" class="btn btn-sm font-sm rounded btn-brand">
+                                            <i class="material-icons"></i> Edit
+                                        </a>
+                                        <% if (products[i].isblocked === false) { %>
+                                            <a onclick="checked('<%= products[i]._id %>')" class="btn btn-sm font-sm rounded btn-brand">
+                                                <i class="material-icons"></i> Block
+                                            </a>
+                                        <% } else { %>
+                                            <a href="/admin/prounblocked/?id=<%= products[i]._id %>">
+                                                <button class="btn btn-sm btn-danger rounded font-sm">Unblock</button>
+                                            </a>
+                                        <% } %>
+                                    </td>
+                                </tr>
+                            <% } %>
+                        </tbody>
+                    </table>
+
+                    <style>
+                        .pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0; /* Add some vertical margin for spacing */
+}
+
+.pagination a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #35f8b0;
+    background-color: hwb(149 38% 7%);
+    color: #fff;
+    border-radius: 5px;
+    margin: 0 5px; /* Add horizontal margin for spacing */
+}
+
+.pagination a.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+                    </style>
+                
+                    <!-- Pagination Controls -->
+                    <div class="pagination">
+                        <a href="?page=<%= currentPages - 1 %>" class="btn btn-sm btn-brand" <%= currentPages <= 1 ? 'disabled' : '' %>>Previous</a>
+                        <span><%= currentPage %></span>
+                        <a href="?page=<%= currentPages + 1 %>" class="btn btn-sm btn-brand" <%= endIndex >= products.length ? 'disabled' : '' %>>Next</a>
+                    </div>
+                </div>
+                
+                
+
+
+                <!-- <div class="pagination-area mt-30 mb-50">
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination justify-content-start">
+                            <li class="page-item active"><a class="page-link" href="#">01</a></li>
+                            <li class="page-item"><a class="page-link" href="#">02</a></li>
+                            <li class="page-item"><a class="page-link" href="#">03</a></li>
+                            <li class="page-item"><a class="page-link dot" href="#">...</a></li>
+                            <li class="page-item"><a class="page-link" href="#">16</a></li>
+                            <li class="page-item"><a class="page-link" href="#"><i
+                                        class="material-icons md-chevron_right"></i></a></li>
+                        </ul>
+                    </nav>
+                </div> -->
+        </section>
+        <!-- content-main end// -->
+        <footer class="main-footer font-xs">
+            <div class="row pb-30 pt-15">
+                <div class="col-sm-6">
+                    <script>
+                        document.write(new Date().getFullYear())
+                    </script> ©, Evara - HTML Ecommerce Template .
+                </div>
+                <div class="col-sm-6">
+                    <div class="text-sm-end">
+                        All rights reserved
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="admin-assets/js/vendors/jquery-3.6.0.min.js"></script>
+    <script src="admin-assets/js/vendors/bootstrap.bundle.min.js"></script>
+    <script src="admin-assets/js/vendors/select2.min.js"></script>
+    <script src="admin-assets/js/vendors/perfect-scrollbar.js"></script>
+    <script src="admin-assets/js/vendors/jquery.fullscreen.min.js"></script>
+    <!-- Main Script -->
+    <script src="admin-assets/js/main.js" type="text/javascript"></script>
+    <script src="admin-assets/js/custom-chart.js" type="text/javascript"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <script>
+        function checked(id) {
+            swal({
+                title: "Are you sure?",
+                text: "Aru you sure want to block?!",
+                icon: "warning",
+                buttons: true,
+                dangerMode: true,
+            })
+                .then((willDelete) => {
+                    if (willDelete) {
+                        console.log("block");
+                        location.href = "/admin/problocked/?id=" + id
+                    } else {
+                        swal("Your imaginary file is safe!");
+                    }
+                });
+        }
+
+    </script>
+    <script>
+        // Add this JavaScript code to your HTML file or an external script
+
+document.getElementById('priceSort').addEventListener('change', function () {
+    const selectedOption = this.value;
+
+    // Get the table rows
+    const table = document.querySelector('table');
+    const tbody = table.querySelector('tbody');
+    const rows = Array.from(tbody.querySelectorAll('tr'));
+
+    // Sort the rows based on the selected option
+    if (selectedOption === 'lowToHigh') {
+        rows.sort((a, b) => {
+            const priceA = parseFloat(a.querySelector('td:nth-child(4)').textContent.replace('₹', '').trim());
+            const priceB = parseFloat(b.querySelector('td:nth-child(4)').textContent.replace('₹', '').trim());
+            return priceA - priceB;
+        });
+    } else if (selectedOption === 'highToLow') {
+        rows.sort((a, b) => {
+            const priceA = parseFloat(a.querySelector('td:nth-child(4)').textContent.replace('₹', '').trim());
+            const priceB = parseFloat(b.querySelector('td:nth-child(4)').textContent.replace('₹', '').trim());
+            return priceB - priceA;
+        });
+    }else if (selectedOption === 'All') {
+        // Restore the original order
+        rows.sort((a, b) => {
+            const rowIndexA = rows.indexOf(a);
+            const rowIndexB = rows.indexOf(b);
+            return rowIndexA - rowIndexB;
+        });
+    }
+
+    // Reorder the table rows
+    rows.forEach(row => tbody.appendChild(row));
+});
+
+    </script>
+
+    
+</body>
+
+
+<!-- Mirrored from wp.alithemes.com/html/evara/evara-backend/page-products-list.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 01 Aug 2021 15:33:12 GMT -->
+
+</html>

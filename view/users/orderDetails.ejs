@@ -1,0 +1,935 @@
+<!--Website: wwww.codingdung.com-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIREX | profile</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="user_assets/userprofile.css">
+    <link rel="icon" type="image/png" href="/user_assets/ridestyle/img/favicon.ico@1324977642">
+
+    <link rel="stylesheet" href="/user_assets/ridestyle/themes/vinova_ridestyle/assets/cache/theme-699bbe41.css"
+        type="text/css" media="all">
+
+    <link rel="icon" type="image/vnd.microsoft.icon"
+        href="/public/user_assets/ridestyle/themes/vinova_ridestyle/assets/img/icon">
+    <link rel="shortcut icon" type="image/x-icon" href="/user_assets/ridestyle/img/favicon.ico@1324977642">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="/user_assets/ridestyle/themes/vinova_ridestyle/assets/cache/theme-699bbe41.css"
+        type="text/css" media="all">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10/dist/sweetalert2.min.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+</head>
+
+
+
+<style id="antiClickjack">
+    body {
+        display: none !important;
+    }
+</style>
+<style>
+    #cart-subtotal-shipping {
+        display: none;
+    }
+
+    .cart-content p:nth-child(3n) {
+        display: none;
+    }
+
+    .summary-selected-carrier .carrier-delay {
+        display: none;
+    }
+</style>
+<script type="text/javascript">
+    if (self === top) {
+        var antiClickjack = document.getElementById("antiClickjack");
+        antiClickjack.parentNode.removeChild(antiClickjack);
+    } else {
+        top.location = self.location;
+    }
+</script>
+
+<style type="text/css">
+    #main-site {
+        background-color: #ffffff;
+    }
+
+    @media (min-width: 1200px) {
+        .container {
+            width: 1200px;
+        }
+
+        #header .container {
+            width: 1200px;
+        }
+
+        .footer .container {
+            width: 1200px;
+        }
+
+        #index .container {
+            width: 1200px;
+        }
+    }
+
+    #popup-subscribe .modal-dialog .modal-content {
+        background-image: url(user_assets/ridestyle/modules/novthemeconfig/images/newsletter_bg.jpg);
+    }
+</style>
+<style>
+    body {
+        color: #000;
+        overflow-x: hidden;
+        height: 100%;
+        background-color: #8C9EFF;
+        background-repeat: no-repeat;
+    }
+
+    .card {
+        z-index: 0;
+        background-color: #ECEFF1;
+        padding-bottom: 20px;
+        margin-top: 90px;
+        margin-bottom: 90px;
+        border-radius: 10px;
+    }
+
+    .top {
+        padding-top: 40px;
+        padding-left: 13% !important;
+        padding-right: 13% !important;
+    }
+
+    /*Icon progressbar*/
+    #progressbar {
+        margin-bottom: 30px;
+        overflow: hidden;
+        color: #455A64;
+        padding-left: 0px;
+        margin-top: 30px;
+    }
+
+    #progressbar li {
+        list-style-type: none;
+        font-size: 13px;
+        width: 25%;
+        float: left;
+        position: relative;
+        font-weight: 400;
+    }
+
+    #progressbar .step0:before {
+        font-family: FontAwesome;
+        content: "\f10c";
+        color: #fff;
+    }
+
+    #progressbar li:before {
+        width: 40px;
+        height: 40px;
+        line-height: 45px;
+        display: block;
+        font-size: 20px;
+        background: #C5CAE9;
+        border-radius: 50%;
+        margin: auto;
+        padding: 0px;
+    }
+
+    /*ProgressBar connectors*/
+    #progressbar li:after {
+        content: '';
+        width: 100%;
+        height: 12px;
+        background: #C5CAE9;
+        position: absolute;
+        left: 0;
+        top: 16px;
+        z-index: -1;
+    }
+
+    #progressbar li:last-child:after {
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        position: absolute;
+        left: -50%;
+    }
+
+    #progressbar li:nth-child(2):after,
+    #progressbar li:nth-child(3):after {
+        left: -50%;
+    }
+
+    #progressbar li:first-child:after {
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        position: absolute;
+        left: 50%;
+    }
+
+    #progressbar li:last-child:after {
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    #progressbar li:first-child:after {
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    /*Color number of the step and the connector before it*/
+    #progressbar li.active:before,
+    #progressbar li.active:after {
+        background: #651FFF;
+    }
+
+    #progressbar li.active:before {
+        font-family: FontAwesome;
+        content: "\f00c";
+    }
+
+    .icon {
+        width: 60px;
+        height: 60px;
+        margin-right: 15px;
+    }
+
+    .icon-content {
+        padding-bottom: 20px;
+    }
+
+    @media screen and (max-width: 992px) {
+        .icon-content {
+            width: 50%;
+        }
+    }
+</style>
+
+
+
+
+
+<body>
+
+
+
+    <script type="text/javascript">
+        var baseDir = "\/ridestyle\/";
+        var isLogged = false;
+        var isLoggedWishlist = false;
+        var prestashop = { "cart": { "products": [], "totals": { "total": { "type": "total", "label": "Total", "amount": 0, "value": "$0.00" }, "total_including_tax": { "type": "total", "label": "Total (tax incl.)", "amount": 0, "value": "$0.00" }, "total_excluding_tax": { "type": "total", "label": "Total (tax excl.)", "amount": 0, "value": "$0.00" } }, "subtotals": { "products": { "type": "products", "label": "Subtotal", "amount": 0, "value": "$0.00" }, "discounts": null, "shipping": { "type": "shipping", "label": "Shipping", "amount": 0, "value": "Free" }, "tax": { "type": "tax", "label": "Taxes", "amount": 0, "value": "$0.00" } }, "products_count": 0, "summary_string": "0 items", "vouchers": { "allowed": 0, "added": [] }, "discounts": [], "minimalPurchase": 0, "minimalPurchaseRequired": "" }, "currency": { "name": "US Dollar", "iso_code": "USD", "iso_code_num": "840", "sign": "$" }, "customer": { "lastname": null, "firstname": null, "email": null, "birthday": null, "newsletter": null, "newsletter_date_add": null, "optin": null, "website": null, "company": null, "siret": null, "ape": null, "is_logged": false, "gender": { "type": null, "name": null }, "addresses": [] }, "language": { "name": "English (English)", "iso_code": "en", "locale": "en-US", "language_code": "en-us", "is_rtl": "0", "date_format_lite": "m\/d\/Y", "date_format_full": "m\/d\/Y H:i:s", "id": 1 }, "page": { "title": "", "canonical": null, "meta": { "title": "Prestashop_RideStyle", "description": "Shop powered by PrestaShop", "keywords": "", "robots": "index" }, "page_name": "index", "body_classes": { "lang-en": true, "lang-rtl": false, "country-US": true, "currency-USD": true, "layout-full-width": true, "page-index": true, "tax-display-disabled": true }, "admin_notifications": [] }, "shop": { "name": "Prestashop_RideStyle", "logo": "\/ridestyle\/img\/logo.png", "stores_icon": "\/ridestyle\/img\/logo_stores.png", "favicon": "\/ridestyle\/img\/favicon.ico" }, "urls": { "base_url": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/", "current_url": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/?home=home_1&SubmitCurrency=1&id_currency=1", "shop_domain_url": "https:\/\/demo.bestprestashoptheme.com", "img_ps_url": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/img\/", "img_cat_url": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/img\/c\/", "img_lang_url": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/img\/l\/", "img_prod_url": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/img\/p\/", "img_manu_url": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/img\/m\/", "img_sup_url": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/img\/su\/", "img_ship_url": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/img\/s\/", "img_store_url": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/img\/st\/", "img_col_url": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/img\/co\/", "img_url": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/themes\/vinova_ridestyle\/assets\/img\/", "css_url": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/themes\/vinova_ridestyle\/assets\/css\/", "js_url": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/themes\/vinova_ridestyle\/assets\/js\/", "pic_url": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/upload\/", "pages": { "address": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/address", "addresses": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/addresses", "authentication": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/login", "cart": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/cart", "category": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/index.php?controller=category", "cms": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/index.php?controller=cms", "contact": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/contact-us", "discount": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/discount", "guest_tracking": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/guest-tracking", "history": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/order-history", "identity": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/identity", "index": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/", "my_account": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/my-account", "order_confirmation": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/order-confirmation", "order_detail": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/index.php?controller=order-detail", "order_follow": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/order-follow", "order": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/order", "order_return": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/index.php?controller=order-return", "order_slip": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/credit-slip", "pagenotfound": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/page-not-found", "password": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/password-recovery", "pdf_invoice": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/index.php?controller=pdf-invoice", "pdf_order_return": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/index.php?controller=pdf-order-return", "pdf_order_slip": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/index.php?controller=pdf-order-slip", "prices_drop": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/prices-drop", "product": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/index.php?controller=product", "search": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/search", "sitemap": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/sitemap", "stores": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/stores", "supplier": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/supplier", "register": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/login?create_account=1", "order_login": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/order?login=1" }, "alternative_langs": { "en-us": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/?home=home_1&SubmitCurrency=1&id_currency=1", "fr-fr": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/fr\/?home=home_1&SubmitCurrency=1&id_currency=1", "es-es": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/es\/?home=home_1&SubmitCurrency=1&id_currency=1", "it-it": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/it\/?home=home_1&SubmitCurrency=1&id_currency=1", "pl-pl": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/pl\/?home=home_1&SubmitCurrency=1&id_currency=1", "ar-sa": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/ar\/?home=home_1&SubmitCurrency=1&id_currency=1" }, "theme_assets": "\/ridestyle\/themes\/vinova_ridestyle\/assets\/", "actions": { "logout": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/?mylogout=" }, "no_picture_image": { "bySize": { "small_default": { "url": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/img\/p\/en-default-small_default.jpg", "width": 125, "height": 74 }, "cart_default": { "url": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/img\/p\/en-default-cart_default.jpg", "width": 125, "height": 125 }, "medium_default": { "url": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/img\/p\/en-default-medium_default.jpg", "width": 370, "height": 220 }, "home_default": { "url": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/img\/p\/en-default-home_default.jpg", "width": 450, "height": 268 }, "large_default": { "url": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/img\/p\/en-default-large_default.jpg", "width": 570, "height": 339 } }, "small": { "url": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/img\/p\/en-default-small_default.jpg", "width": 125, "height": 74 }, "medium": { "url": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/img\/p\/en-default-medium_default.jpg", "width": 370, "height": 220 }, "large": { "url": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/img\/p\/en-default-large_default.jpg", "width": 570, "height": 339 }, "legend": "" } }, "configuration": { "display_taxes_label": false, "is_catalog": false, "show_prices": true, "opt_in": { "partner": true }, "quantity_discount": { "type": "price", "label": "Price" }, "voucher_enabled": 0, "return_enabled": 0 }, "field_required": [], "breadcrumb": { "links": [{ "title": "Home", "url": "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/" }], "count": 1 }, "link": { "protocol_link": "https:\/\/", "protocol_content": "https:\/\/" }, "time": 1693838046, "static_token": "9d691e438ad3bb533a2a9a0ac6fec67f", "token": "4aa7460c85dac8f063b8f1681141bc80" };
+        var search_url = "https:\/\/user_asset\/ridestyle\/en\/search";
+        var static_token = "9d691e438ad3bb533a2a9a0ac6fec67f";
+        var wishlistProductsIdsobject = [];
+    </script>
+
+    <body id="index" class="lang-en country-us currency-usd layout-full-width page-index tax-display-disabled
+   displayhomenovone">
+
+
+
+        <main id="main-site">
+
+
+
+
+            <header id="header" class="header-1">
+
+
+
+
+
+                <div class="header-top hidden-sm-down group-sticky" style="background-color:black;">
+                    <div class="container">
+                        <div class="row d-flex align-items-center content-header-top">
+                            <div
+                                class="col-xl-8 col-lg-7 col-md-9 d-flex align-items-center justify-content-between header-top-left">
+                                <div id="_desktop_logo"
+                                    class="contentsticky_logo d-flex align-items-center justify-content-start">
+                                    <a href="/home">
+                                        <img class="logo img-fluid" src="/user_assets/userImages/logo-1.png"
+                                            alt="RIDEX">
+                                    </a>
+                                </div>
+
+                                <div id="_desktop_top_menu">
+                                    <nav id="nov-megamenu" class="clearfix">
+                                        <!-- Brand and toggle get grouped for better mobile display -->
+                                        <div id="megamenu" class="nov-megamenu clearfix">
+                                            <ul class="menu level1">
+                                                <li class="item home-page has-sub"><span class="opener"></span><a
+                                                        href="/home" title="Home"><i class="zmdi zmdi-home"></i>Home</a>
+
+                                                </li>
+                                                <li class="item category-mega group"><span class="opener"></span><a
+                                                        href="/shoppage" title="Shop"><i
+                                                            class="zmdi zmdi-tag"></i>Shop</a>
+                                                    <div class="dropdown-menu" style="width:795px">
+                                                        <ul class="">
+                                                            <li class="item col-md-4 html">
+                                                                <div class="menu-content">
+                                                                    <div class="menu-title">LapTop & Accessories</div>
+                                                                    <ul>
+                                                                        <li><a href="#">Macbook Pro</a></li>
+                                                                        <li><a href="#">Lenovo Yoga</a></li>
+                                                                        <li><a href="#">Laptop Thinkpad</a></li>
+                                                                        <li><a href="#">Dell Latitude</a></li>
+                                                                        <li><a href="#">Dell Percision</a></li>
+                                                                    </ul>
+                                                                    <div class="menu-title">Smartphone & Tablets</div>
+                                                                    <ul>
+                                                                        <li><a href="#">Iphone X</a></li>
+                                                                        <li><a href="#">Accessories</a></li>
+                                                                        <li><a href="#">Samsung Galaxy</a></li>
+                                                                        <li><a href="#">Asus ( Zenfone )</a></li>
+                                                                        <li><a href="#">Huawei</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </li>
+                                                            <li class="item col-md-4 html">
+                                                                <div class="menu-content">
+                                                                    <div class="menu-title">Electronics</div>
+                                                                    <ul>
+                                                                        <li><a href="#">Television</a></li>
+                                                                        <li><a href="#">Washing Machine</a></li>
+                                                                        <li><a href="#">Fruit Presses</a></li>
+                                                                        <li><a href="#">Electric Fan</a></li>
+                                                                        <li><a href="#">Fridge</a></li>
+                                                                    </ul>
+                                                                    <div class="menu-title">Fashion & Accessories</div>
+                                                                    <ul>
+                                                                        <li><a href="#">Suitable</a></li>
+                                                                        <li><a href="#">Clothings</a></li>
+                                                                        <li><a href="#">Shoes & Sandals</a></li>
+                                                                        <li><a href="#">Dress & Skirt</a></li>
+                                                                        <li><a href="#">Accessories</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </li>
+                                                            <li class="item col-md-4 html">
+                                                                <div class="menu-content">
+                                                                    <div class="menu-title">Audio & Sound Devices</div>
+                                                                    <ul>
+                                                                        <li><a href="#">Speaker Mionix</a></li>
+                                                                        <li><a href="#">Headphone Lansing</a></li>
+                                                                        <li><a href="#">Libratone Product</a></li>
+                                                                        <li><a href="#">UFi Products</a></li>
+                                                                        <li><a href="#">Tangent Audio</a></li>
+                                                                    </ul>
+                                                                    <div class="menu-title">Furniture</div>
+                                                                    <ul>
+                                                                        <li><a href="#">Armchair</a></li>
+                                                                        <li><a href="#">Accessories</a></li>
+                                                                        <li><a href="#">Table & Desk</a></li>
+                                                                        <li><a href="#">Wall Lamp</a></li>
+                                                                        <li><a href="#">Kitchen Product</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="item  has-sub"><span class="opener"></span><a href="#"
+                                                        title="Vendors"><i class="zmdi zmdi-assignment"></i>Vendors</a>
+                                                    <div class="dropdown-menu" style="width:200px">
+                                                        <ul class="">
+                                                            <li class="item "><a href="#" title="Vendor Shop">Vendor
+                                                                    Shop</a></li>
+                                                            <li class="item  has-sub"><span class="opener"></span><a
+                                                                    href="#" title="Vendor Dashboard">Vendor
+                                                                    Dashboard</a>
+                                                                <div class="dropdown-menu" style="width:200px">
+                                                                    <ul class="">
+                                                                        <li class="item "><a href="#"
+                                                                                title="Orders">Orders</a></li>
+                                                                        <li class="item "><a href="#"
+                                                                                title="Shop Settings">Shop Settings</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="item  has-sub"><span class="opener"></span><a
+                                                        href="user_assets/prestashop_ridestyle/blog.html"
+                                                        title="Blog"><i class="zmdi zmdi-library"></i>Blog</a>
+                                                    <div class="dropdown-menu" style="width:260px">
+                                                        <ul class="">
+                                                            <li class="item "><a
+                                                                    href="index.php?fc=module&amp;module=smartblog&amp;id_post=7&amp;controller=details"
+                                                                    title="Blog detail">Blog detail</a></li>
+                                                            <li class="item "><a
+                                                                    href="index.php?fc=module&amp;module=smartblog&amp;id_category=3&amp;page=1&amp;controller=category&amp;cateblog_layout=layout-left-column"
+                                                                    title="Category Blog ( Left column)">Category Blog (
+                                                                    Left column)</a></li>
+                                                            <li class="item "><a
+                                                                    href="index.php?fc=module&amp;module=smartblog&amp;id_category=3&amp;page=1&amp;controller=category&amp;cateblog_layout=layout-right-column"
+                                                                    title="Category Blog ( Right column)">Category Blog
+                                                                    ( Right column)</a></li>
+                                                            <li class="item "><a
+                                                                    href="index.php?fc=module&amp;module=smartblog&amp;id_category=3&amp;page=1&amp;controller=category&amp;cateblog_layout=layout-one-column"
+                                                                    title="Category Blog ( One column)">Category Blog (
+                                                                    One column)</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="item "><a href="" title="Contact us"><i
+                                                            class="zmdi zmdi-phone"></i>Contact us</a>
+                                                </li>
+                                                <li class="item "><a href="#" title="ABOUT"><i
+                                                            class="zmdi zmdi-accounts"></i>ABOUT</a></li>
+                                            </ul>
+                                        </div>
+                                    </nav>
+                                </div>
+
+                            </div>
+                            <div
+                                class="col-xl-4 col-lg-5 col-md-3 d-flex align-items-center justify-content-end header-top-right">
+                                <div class="contentsticky_group d-flex align-items-center justify-content-end ">
+                                    <div class="contentsticky_search d-flex">
+                                        <!-- block seach mobile -->
+                                        <!-- Block search module TOP -->
+                                        <div id="_desktop_search_content" data-id_lang="1" data-ajaxsearch="1"
+                                            data-novadvancedsearch_type="top" data-instantsearch="" data-search_ssl="1"
+                                            data-link_search_ssl="/user_assets/ridestyle/en/search"
+                                            data-action="/user_assets/ridestyle/en/module/novadvancedsearch/result">
+                                            <div class="icon-advansearch">
+                                                <i class="fa fa-search nov-toggle-btn icon-adsearch"></i>
+                                            </div>
+                                            <div class="block_advancedsearch">
+                                                <form method="get"
+                                                    action="/user_assets/ridestyle/en/module/novadvancedsearch/result"
+                                                    id="searchbox" class="form-novadvancedsearch">
+                                                    <input type="hidden" name="fc" value="module">
+                                                    <input type="hidden" name="module" value="novadvancedsearch">
+                                                    <input type="hidden" name="controller" value="result">
+                                                    <input type="hidden" name="orderby" value="position" />
+                                                    <input type="hidden" name="orderway" value="desc" />
+                                                    <input type="hidden" name="id_category" class="id_category"
+                                                        value="0" />
+                                                    <div class="input-group input-group-left">
+                                                        <div class="input-group-btn nov_category_tree">
+                                                            <button type="button" class="btn dropdown-toggle"
+                                                                data-toggle="dropdown" aria-haspopup="true"
+                                                                value="aaaaa" aria-expanded="false">
+                                                                <span>Categories</span>
+                                                            </button>
+                                                            <ul class="dropdown-menu list-unstyled">
+                                                                <li class="dropdown-item active" data-value="0">
+                                                                    <span>All Categories</span>
+                                                                </li>
+                                                                <li class="dropdown-item " data-value="2">
+                                                                    <span>Home</span>
+                                                                </li>
+
+                                                                <li class="dropdown-item font-weight-bold"
+                                                                    data-value="3">
+                                                                    <span>Accessories</span>
+                                                                </li>
+
+
+                                                                <li class="dropdown-item font-weight-bold"
+                                                                    data-value="6">
+                                                                    <span>Helmets</span>
+                                                                </li>
+
+
+                                                                <li class="dropdown-item font-weight-bold"
+                                                                    data-value="9">
+                                                                    <span>Bikes</span>
+                                                                </li>
+
+                                                                <li class="dropdown-item pl-25" data-value="11">
+                                                                    <span>- Road Bike</span>
+                                                                </li>
+                                                                <li class="dropdown-item pl-25" data-value="12">
+                                                                    <span>- Jump Bikes</span>
+                                                                </li>
+                                                                <li class="dropdown-item pl-25" data-value="13">
+                                                                    <span>- BMX Bikes</span>
+                                                                </li>
+                                                                <li class="dropdown-item pl-25" data-value="8">
+                                                                    <span>- Mountain Bike</span>
+                                                                </li>
+
+                                                                <li class="dropdown-item font-weight-bold"
+                                                                    data-value="4">
+                                                                    <span>Clothing</span>
+                                                                </li>
+
+
+                                                                <li class="dropdown-item font-weight-bold"
+                                                                    data-value="5">
+                                                                    <span>Parts &amp; Components</span>
+                                                                </li>
+
+
+                                                                <li class="dropdown-item font-weight-bold"
+                                                                    data-value="7">
+                                                                    <span>Frames</span>
+                                                                </li>
+
+
+                                                            </ul>
+                                                        </div>
+                                                        <input type="text" id="search_query_top"
+                                                            class="search_query ui-autocomplete-input form-control"
+                                                            name="search_query" value="" placeholder="Search" />
+                                                        <span class="input-group-btn button-search">
+                                                            <button class="btn btn-secondary" type="submit"
+                                                                name="submit_search"><i
+                                                                    class="icon-novsearch"></i>Enter</button>
+                                                        </span>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <!-- /Block search module TOP -->
+
+                                    </div>
+                                    <div id="nov_block_myaccount_infos"
+                                        class="contentsticky_account hidden-sm-down dropdown header_link_myaccount">
+                                        <div class="myaccount-icon dropdown-toggle" data-toggle="dropdown"
+                                            aria-haspopup="true" aria-expanded="false" role="main">
+                                            <i class="fa fa-user"></i>
+                                        </div>
+                                        <div class="account-list dropdown-menu">
+                                            <ul class="account-list-content" id="_desktop_account-list-content">
+                                                <li>
+                                                    <a class="account" href="/userprofile" rel="nofollow"
+                                                        title="Log in to your customer account"><i
+                                                            class="fa fa-cog"></i><span>My
+                                                            Account</span></a>
+                                                </li>
+                                                <li>
+                                                    <a class="login" href="/login" rel="nofollow"
+                                                        title="Log in to your customer account"><i
+                                                            class="fa fa-sign-in"></i><span>Log
+                                                            in</span></a>
+                                                </li>
+                                                <li>
+                                                    <a class="logout" href="/logout" rel="nofollow"
+                                                        title="Log me out"><i class="fa fa-sign-out"></i><span>Log
+                                                            out</span></a>
+                                                </li>
+                                                <li>
+                                                    <a class="register" href="/userSignup " rel="nofollow"
+                                                        title="Register Account"><i
+                                                            class="fa fa-user"></i><span>Register</span></a>
+                                                </li>
+                                                <li>
+                                                    <a class="check-out" href="/user_assets/ridestyle/en/order"
+                                                        rel="nofollow" title="Checkout"><i
+                                                            class="material-icons">check_circle</i><span>Checkout</span></a>
+                                                </li>
+                                                <li class="link_wishlist">
+                                                    <a href="/user_assets/ridestyle/en/module/novblockwishlist/mywishlist"
+                                                        title="My Wishlists">
+                                                        <i class="fa fa-heart"></i><span>My Wishlists</span>
+                                                    </a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <a href="/cart">
+                                        <div class="contentsticky_cart">
+                                            <div id="_desktop_cart">
+                                                <div class="blockcart cart-preview"
+                                                    data-refresh-url="/user_assets/ridestyle/en/module/ps_shoppingcart/ajax">
+                                                    <div class="header-cart">
+                                                        <div class="header-cart-icon">
+                                                            <span class="cart-products-count"></span>
+                                                            <i class="fa fa-shopping-cart"></i>
+                                                        </div>
+                                                    </div>
+                                    </a>
+
+                                    <div class="cart_block ">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                </div>
+                </div>
+            </header>
+
+            <body>
+                <div class="container px-1 px-md-4 py-5 mx-auto">
+                    <div class="card">
+                        <% for (let i=0; i < orderModel.length; i++) { %>
+                            <div class="row d-flex justify-content-between px-3 top">
+                                <div class="d-flex">
+                                    <h1>ORDER DETAILS <span class="text-primary font-weight-bold"></span></h1>
+                                </div>
+                                <div class="d-flex flex-column text-sm-right">
+                                    <p class="mb-0">Order ID: <span>
+                                            <%= orderModel[i]._id %>876
+                                        </span></p>
+                                    <!-- <p>USPS <span class="font-weight-bold">234094567242423422898</span></p> -->
+                                </div>
+                            </div>
+                            <!-- Add class 'active' to progress -->
+                            <div class="row d-flex justify-content-center">
+                                <div class="col-12">
+                                    <ul id="progressbar" class="text-center">
+
+                                        <% if(orderModel[i].delivery_status==="Delivered" ){ %>
+                                            <li class=" active step0"></li>
+                                            <li class=" active step0"></li>
+                                            <li class=" active step0"></li>
+                                            <li class="active step0"></li>
+                                            <% }else if(orderModel[i].delivery_status==="pending" ){ %>
+                                                <!-- <li class=" active step0"></li>
+                                                <li class=" active step0"></li>
+                                                <li class=" active step0"></li>
+                                                <li class="active step0"></li> -->
+                                                <% }else if(orderModel[i].delivery_status==="confirmed" ){ %>
+                                                    <li class=" active step0"></li>
+                                                    <!-- <li class=" active step0"></li>
+                                                    <li class=" active step0"></li>
+                                                    <li class="active step0"></li> -->
+                                                    <% }else if(orderModel[i].delivery_status==="Shipped" ){ %>
+                                                        <li class=" active step0"></li>
+                                                        <li class=" active step0"></li>
+                                                        <!-- <li class=" active step0"></li>
+                                                        <li class="active step0"></li> -->
+                                                        <% }else if(orderModel[i].delivery_status==="Canceled" ){ %>
+                                                            <!-- <li class=" active step0"></li>
+                                                            <li class=" active step0"></li>
+                                                            <li class=" active step0"></li>
+                                                            <li class="active step0"></li> -->
+                                                            <% } %>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row justify-content-between top">
+                                <div class="row d-flex icon-content">
+                                    <img class="icon" src="https://i.imgur.com/9nnc9Et.png">
+                                    <div class="d-flex flex-column">
+                                        <p class="font-weight-bold">Order<br>Processed</p>
+                                    </div>
+                                </div>
+                                <div class="row d-flex icon-content">
+                                    <img class="icon" src="https://i.imgur.com/u1AzR7w.png">
+                                    <div class="d-flex flex-column">
+                                        <p class="font-weight-bold">Order<br>Shipped</p>
+                                    </div>
+                                </div>
+                                <div class="row d-flex icon-content">
+                                    <img class="icon" src="https://i.imgur.com/TkPm63y.png">
+                                    <div class="d-flex flex-column">
+                                        <p class="font-weight-bold">Order<br>En Route</p>
+                                    </div>
+                                </div>
+                                <div class="row d-flex icon-content">
+                                    <img class="icon" src="https://i.imgur.com/HdsziHP.png">
+                                    <div class="d-flex flex-column">
+                                        <p class="font-weight-bold">Order<br>Arrived</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="table-responsive">
+                                <table id="dtBasicExample" class="table table-striped table-bordered"
+                                    style="background-color: #f3f3f3;">
+                                    <thead style="background-color: #404a58; color: white;">
+                                        <tr>
+                                            <th class="th-sm"></th>
+                                            <th class="th-sm">Order</th>
+                                            <th class="th-sm">Date</th>
+                                            <th class="th-sm">Quantity</th>
+                                            <th class="th-sm">Status</th>
+                                            <th class="th-sm">Total</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <% for (let i=0; i < orderModel.length; i++) { %>
+                                            <tr>
+                                                <td>
+                                                    <% for (let j=0; j < orderModel[i].product_details.length; j++) { %>
+                                                        <img src="/admin-assets/imgs/<%= orderModel[i].product_details[j].image %>"
+                                                            alt="" height="50px" width="100px">
+                                                        <% } %>
+                                                </td>
+                                                <td style="font-size: 13px;">
+                                                    <% for (let j=0; j < orderModel[i].product_details.length; j++) { %>
+                                                        <%= orderModel[i].product_details[j].product_name %> <br>
+                                                            <% } %>
+                                                </td>
+                                                <td>
+                                                    <% const orderDate=new Date(orderModel[i].order_date); %>
+                                                        <% if (!isNaN(orderDate)) { %>
+                                                            <%= orderDate.toISOString().split('T')[0] %>
+                                                                <% } else { %>
+                                                                    <%= orderModel[i].order_date %>
+                                                                        <% } %>
+                                                </td>
+                                                <td>
+                                                    <% for (let j=0; j < orderModel[i].product_details.length; j++) { %>
+                                                        <%= orderModel[i].product_details[j].quantity %> <br>
+                                                            <% } %>
+                                                </td>
+                                                <td>
+                                                    <% if (orderModel[i].delivery_status==="confirmed" ||
+                                                        orderModel[i].delivery_status==="Shipped" ||
+                                                        orderModel[i].delivery_status==="Delivered" ) { %>
+                                                        <span class="badge rounded-pill alert-success"
+                                                            style="font-size: 10px;">
+                                                            <%= orderModel[i].delivery_status %>
+                                                        </span>
+                                                        <% } else { %>
+                                                            <span class="badge rounded-pill alert-danger"
+                                                                style="font-size: 10px;">
+                                                                <%= orderModel[i].delivery_status %>
+                                                            </span>
+                                                            <% } %>
+                                                </td>
+                                                <td style="font-size: 16px;">
+                                                    <%= orderModel[i].total_price %>
+                                                </td>
+                                            </tr>
+                                            <% } %>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <div class="container-fluid">
+                                <div class="card p-4 mt-3">
+                                    <div class="first d-flex justify-content-between align-items-center mb-3">
+                                        <div class="info">
+                                            <span class="d-block name" style="font-style: normal; font-size: larger; ">
+                                                <%= orderModel[i].user_name %>
+                                            </span>
+                                            <span class="order" style="font-size: large;">Order Id -<%=
+                                                    orderModel[i]._id %>876</span>
+
+                                        </div>
+
+                                        <img src="https://i.imgur.com/NiAVkEw.png" width="40" />
+
+
+                                    </div>
+                                    <div class="detail">
+                                        <span class="d-block summery">Your order has been
+                                            <% if (orderModel[i].delivery_status==="confirmed" ||
+                                                orderModel[i].delivery_status==="Shipped" ||
+                                                orderModel[i].delivery_status==="Delivered" ) { %>
+                                                <span class="badge rounded-pill alert-success" style="font-size: 10px;">
+                                                    <%= orderModel[i].delivery_status %>
+                                                </span>
+                                                <% } else if(orderModel[i].delivery_status==="Returned" ) { %>
+                                                    <span class="badge rounded-pill alert-danger"
+                                                        style="font-size: 10px;">
+                                                        <%= orderModel[i].delivery_status %>,The product will be
+                                                            returned in 7 days.
+                                                    </span>
+                                                    <% }else{ %>
+                                                        <span class="badge rounded-pill alert-danger"
+                                                            style="font-size: 10px;">
+                                                            <%= orderModel[i].delivery_status %>
+                                                        </span>
+
+                                                        <% }%>
+
+
+                                        </span>
+                                    </div>
+
+                                    <hr>
+                                    <h3>Address</h3>
+
+                                    <div class="text">
+
+                                    </div>
+                                    <div class="address-block">
+                                        <address>
+                                            <strong>
+                                                <%= orderModel[0].order_address.firstname %>
+                                                    <%= orderModel[0].order_address.lastname %>
+                                            </strong><br>
+                                            <%= orderModel[0].order_address.mobile %><br>
+                                                <%= orderModel[0].order_address.address %><br>
+                                                    <%= orderModel[0].order_address.town %><br>
+                                                        <%= orderModel[0].order_address.state %>, <%=
+                                                                orderModel[0].order_address.pincode %>
+                                        </address>
+                                    </div>
+                                    <div class="  money d-flex flex-row mt-2 align-items-center">
+                                        <img src="https://i.imgur.com/ppwgjMU.png" width="20" />
+                                        <h3>Paymant mathod-</h1>
+                                            <span class="ml-2" style="font-size:large; font-weight: 900;">
+                                                <%= orderModel[i].payment_type %>
+                                            </span>
+
+
+
+                                    </div>
+                                    <div>
+                                        <style>
+                                            /* Style the button with the "invoice" class */
+                                            .invoice {
+                                                background-color: #007bff;
+                                                /* Blue background color */
+                                                color: #fff;
+                                                /* White text color */
+                                                border: none;
+                                                /* Remove button border */
+                                                padding: 10px 20px;
+                                                /* Add padding */
+                                                cursor: pointer;
+                                                /* Add pointer cursor on hover */
+                                                border-radius: 4px;
+                                                /* Add rounded corners */
+                                            }
+
+                                            /* Hover effect for the button */
+                                            .invoice:hover {
+                                                background-color: #0056b3;
+                                                /* Darker blue on hover */
+                                            }
+                                        </style>
+                                       <a href="/invoice?id=<%=orderModel[i]._id%>"> <button class="invoice">Download Invoice</button></a>
+
+                                    </div>
+                                    <%if(orderModel[i].payment_type=='online' &&
+                                        orderModel[i].delivery_status==="confirmed" ){%>
+                                        <div class="last d-flex align-items-center mt-3">
+                                            <h2>Payment ID -</h2> <span class="ml-2"
+                                                style="font-size: large; font-weight: 600;">
+                                                <%= orderModel[i].payment_id%>
+                                            </span>
+
+                                        </div>
+                                        <%}else if(orderModel[i].delivery_status==="pending" ){%>
+                                            <div class="last d-flex align-items-center mt-3">
+                                                <h2 style="color: red;">Your payment is cancelled</h2> <span
+                                                    class="ml-2" style="font-size: large; font-weight: 600;">
+                                                    <%= orderModel[i].payment_id%>
+                                                </span>
+
+                                            </div>
+                                            <%}%>
+                                                <div><br>
+                                                    <% if(orderModel[i].delivery_status==="Delivered" ){%>
+                                                        <a href="/productReview/?id=<%= orderModel[i]._id %>">
+                                                            <button
+                                                                style="background-color: #4CAF50; color: white; border: none; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; border-radius: 5px;">Write
+                                                                a product review</button>
+                                                        </a>
+
+
+                                                </div>
+                                                <% } %>
+                                                    <% } %>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+
+
+                <style>
+                    .increased-font {
+                        font-size: 16px;
+                        /* Adjust the font size as needed */
+                    }
+
+                    .large-button {
+                        padding: 10px 20px !important;
+                        /* Add !important to override existing styles */
+                        font-size: 12px !important;
+                        /* Add !important to override existing styles */
+                    }
+                </style>
+
+
+
+
+                <script data-cfasync="false"
+                    src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+                <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.bundle.min.js"></script>
+                <script type="text/javascript">
+                </script>
+                <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+                <script>
+                    function checked(id) {
+                        swal({
+                            title: "Are you sure?",
+                            text: "Aru you sure want to cancel ?!",
+                            icon: "warning",
+                            buttons: true,
+                            dangerMode: true,
+                        })
+                            .then((willDelete) => {
+                                if (willDelete) {
+                                    console.log("block");
+                                    location.href = "/cancelorder/?id=" + id
+                                } else {
+                                    swal("Your order is safe!");
+                                }
+                            });
+                    }
+                </script>
+
+
+
+                <script>
+                    $(document).ready(function () {
+                        $('#dtBasicExample').DataTable();
+                        $('.dataTables_length').addClass('bs-select');
+                    });
+                </script>
+
+
+
+
+
+
+                <script data-cfasync="false"
+                    src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+                <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.bundle.min.js"></script>
+                <script type="text/javascript">
+
+                </script>
+
+
+                <script type="text/javascript"
+                    src="user_assets/ridestyle/themes/vinova_ridestyle/assets/cache/bottom-4fd30440.js"></script>
+
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+                    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+                    crossorigin="anonymous"></script>
+
+
+
+                <script>(function (d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0];
+                        if (d.getElementById(id)) return;
+                        js = d.createElement(s); js.id = id;
+                        js.src = "//connect.facebook.net/en_EN/sdk.js#xfbml=1&version=v2.10";
+                        fjs.parentNode.insertBefore(js, fjs);
+                    }(document, 'script', 'facebook-jssdk'));</script>
+            </body>
+
+</html>

@@ -1,0 +1,1068 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    
+      
+  <meta charset="utf-8">
+  
+
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+
+
+  <title>Electronic</title>
+  <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tristique risus id consequat ornare.">
+  <meta name="keywords" content="">
+    
+
+
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=yes">
+
+
+
+<link rel="icon" type="image/vnd.microsoft.icon" href="/ridestyle/img/favicon.ico?1324977642">
+<link rel="shortcut icon" type="image/x-icon" href="/ridestyle/img/favicon.ico?1324977642">
+
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700,800,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://demo.bestprestashoptheme.com/ridestyle/themes/vinova_ridestyle/assets/cache/theme-8dbff641.css" type="text/css" media="all">
+
+
+
+
+  
+
+  <script type="text/javascript">
+        var baseDir = "\/ridestyle\/";
+        var isLogged = false;
+        var isLoggedWishlist = false;
+        var prestashop = {"cart":{"products":[],"totals":{"total":{"type":"total","label":"Total","amount":0,"value":"$0.00"},"total_including_tax":{"type":"total","label":"Total (tax incl.)","amount":0,"value":"$0.00"},"total_excluding_tax":{"type":"total","label":"Total (tax excl.)","amount":0,"value":"$0.00"}},"subtotals":{"products":{"type":"products","label":"Subtotal","amount":0,"value":"$0.00"},"discounts":null,"shipping":{"type":"shipping","label":"Shipping","amount":0,"value":"Free"},"tax":{"type":"tax","label":"Taxes","amount":0,"value":"$0.00"}},"products_count":0,"summary_string":"0 items","vouchers":{"allowed":0,"added":[]},"discounts":[],"minimalPurchase":0,"minimalPurchaseRequired":""},"currency":{"name":"US Dollar","iso_code":"USD","iso_code_num":"840","sign":"$"},"customer":{"lastname":null,"firstname":null,"email":null,"birthday":null,"newsletter":null,"newsletter_date_add":null,"optin":null,"website":null,"company":null,"siret":null,"ape":null,"is_logged":false,"gender":{"type":null,"name":null},"addresses":[]},"language":{"name":"English (English)","iso_code":"en","locale":"en-US","language_code":"en-us","is_rtl":"0","date_format_lite":"m\/d\/Y","date_format_full":"m\/d\/Y H:i:s","id":1},"page":{"title":"","canonical":null,"meta":{"title":"Prestashop_RideStyle","description":"","keywords":"","robots":"index"},"page_name":"module-smartblog-category","body_classes":{"lang-en":true,"lang-rtl":false,"country-US":true,"currency-USD":true,"layout-one-column":true,"page-":true,"tax-display-disabled":true},"admin_notifications":[]},"shop":{"name":"Prestashop_RideStyle","logo":"\/ridestyle\/img\/logo.png","stores_icon":"\/ridestyle\/img\/logo_stores.png","favicon":"\/ridestyle\/img\/favicon.ico"},"urls":{"base_url":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/","current_url":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/helmets\/index.php?fc=module&module=smartblog&id_category=3&page=1&controller=category&cateblog_layout=layout-right-column","shop_domain_url":"https:\/\/demo.bestprestashoptheme.com","img_ps_url":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/img\/","img_cat_url":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/img\/c\/","img_lang_url":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/img\/l\/","img_prod_url":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/img\/p\/","img_manu_url":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/img\/m\/","img_sup_url":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/img\/su\/","img_ship_url":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/img\/s\/","img_store_url":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/img\/st\/","img_col_url":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/img\/co\/","img_url":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/themes\/vinova_ridestyle\/assets\/img\/","css_url":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/themes\/vinova_ridestyle\/assets\/css\/","js_url":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/themes\/vinova_ridestyle\/assets\/js\/","pic_url":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/upload\/","pages":{"address":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/address","addresses":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/addresses","authentication":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/login","cart":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/cart","category":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/index.php?controller=category","cms":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/index.php?controller=cms","contact":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/contact-us","discount":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/discount","guest_tracking":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/guest-tracking","history":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/order-history","identity":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/identity","index":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/","my_account":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/my-account","order_confirmation":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/order-confirmation","order_detail":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/index.php?controller=order-detail","order_follow":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/order-follow","order":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/order","order_return":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/index.php?controller=order-return","order_slip":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/credit-slip","pagenotfound":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/page-not-found","password":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/password-recovery","pdf_invoice":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/index.php?controller=pdf-invoice","pdf_order_return":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/index.php?controller=pdf-order-return","pdf_order_slip":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/index.php?controller=pdf-order-slip","prices_drop":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/prices-drop","product":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/index.php?controller=product","search":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/search","sitemap":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/sitemap","stores":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/stores","supplier":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/supplier","register":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/login?create_account=1","order_login":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/order?login=1"},"alternative_langs":{"en-us":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/3-accessories","fr-fr":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/fr\/3-clothes","es-es":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/es\/3-accessories","it-it":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/it\/3-accessories","pl-pl":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/pl\/3-accessories","ar-sa":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/ar\/3-accessories"},"theme_assets":"\/ridestyle\/themes\/vinova_ridestyle\/assets\/","actions":{"logout":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/?mylogout="},"no_picture_image":{"bySize":{"small_default":{"url":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/img\/p\/en-default-small_default.jpg","width":125,"height":74},"cart_default":{"url":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/img\/p\/en-default-cart_default.jpg","width":125,"height":125},"medium_default":{"url":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/img\/p\/en-default-medium_default.jpg","width":370,"height":220},"home_default":{"url":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/img\/p\/en-default-home_default.jpg","width":450,"height":268},"large_default":{"url":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/img\/p\/en-default-large_default.jpg","width":570,"height":339}},"small":{"url":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/img\/p\/en-default-small_default.jpg","width":125,"height":74},"medium":{"url":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/img\/p\/en-default-medium_default.jpg","width":370,"height":220},"large":{"url":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/img\/p\/en-default-large_default.jpg","width":570,"height":339},"legend":""}},"configuration":{"display_taxes_label":false,"is_catalog":false,"show_prices":true,"opt_in":{"partner":true},"quantity_discount":{"type":"price","label":"Price"},"voucher_enabled":0,"return_enabled":0},"field_required":[],"breadcrumb":{"links":[{"title":"Home","url":"https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/"}],"count":1},"link":{"protocol_link":"https:\/\/","protocol_content":"https:\/\/"},"time":1693843489,"static_token":"9d691e438ad3bb533a2a9a0ac6fec67f","token":"4aa7460c85dac8f063b8f1681141bc80"};
+        var search_url = "https:\/\/demo.bestprestashoptheme.com\/ridestyle\/en\/search";
+        var static_token = "9d691e438ad3bb533a2a9a0ac6fec67f";
+        var wishlistProductsIdsobject = [];
+      </script>
+
+
+
+  <style id="antiClickjack">
+                        body{
+                            display:none !important;}
+                        }
+                    </style>
+                    <style>
+                    #cart-subtotal-shipping{ display: none; }
+                    .cart-content p:nth-child(3n){ display: none; }
+                    .summary-selected-carrier .carrier-delay{ display: none; }
+                </style>
+                    <script type="text/javascript">
+                        if (self === top) {
+                            var antiClickjack = document.getElementById("antiClickjack");
+                            antiClickjack.parentNode.removeChild(antiClickjack);
+                            } else {
+                            top.location = self.location;
+                        }
+                    </script>
+
+<style type="text/css">
+  #main-site {background-color: #ffffff;}@media (min-width: 1200px) {.container {width: 1200px;}#header .container {width: 1200px;}.footer .container {width: 1200px;}#index .container {width: 1200px;}}#popup-subscribe .modal-dialog .modal-content {background-image: url(/ridestyle/modules/novthemeconfig/images/newsletter_bg.jpg);}
+</style>
+    
+  </head>
+  <body id="module-smartblog-category" class="lang-en country-us currency-usd layout-one-column page- tax-display-disabled
+   displayhomenovone">
+    
+      
+    
+    <main id="main-site">
+    
+          
+
+    
+              <header id="header" class="header-1">
+  
+  <div class="header-mobile hidden-md-up">
+    <div class="hidden-md-up text-xs-center mobile d-flex align-items-center justify-content-end">
+            <div class="mobile_logo">
+        <a href="https://demo.bestprestashoptheme.com/ridestyle/">
+          <img class="logo-mobile img-fluid" src="/ridestyle/modules/novthemeconfig/images/logo-mobile-1.png" alt="Prestashop_RideStyle">
+        </a>
+      </div>
+            <div id="_mobile_search">
+        <div id="_mobile_search_content"></div>
+      </div>
+      <div id="_mobile_menutop" class="item-mobile-top item-mobile-top-right nov-toggle-page d-flex align-items-center justify-content-center" data-target="#mobile-pagemenu"><i class="zmdi zmdi-view-headline"></i></div>
+    </div>
+  </div>
+  
+
+  
+  <div class="header-top hidden-sm-down group-sticky">
+    <div class="container">
+      <div class="row d-flex align-items-center content-header-top">
+        <div class="col-xl-8 col-lg-7 col-md-9 d-flex align-items-center justify-content-between header-top-left">
+          <div id="_desktop_logo" class="contentsticky_logo d-flex align-items-center justify-content-start">
+                        <a href="https://demo.bestprestashoptheme.com/ridestyle/">
+              <img class="logo img-fluid" src="/ridestyle/modules/novthemeconfig/images/logos/logo-1.png" alt="Prestashop_RideStyle">
+            </a>
+                      </div>
+          
+          <div id="_desktop_top_menu">
+            <nav id="nov-megamenu" class="clearfix">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div id="megamenu" class="nov-megamenu clearfix">
+        <ul class="menu level1"><li class="item home-page has-sub" ><span class="opener"></span><a href="https://demo.vinovatheme.com/prestashop_ridestyle" title="Home"><i class="zmdi zmdi-home"></i>Home</a><div class="dropdown-menu" style="width:200px"><ul class=""><li class="item " ><a href="https://demo.bestprestashoptheme.com/ridestyle/index.php?home=home_1" title="Home page 1">Home page 1</a></li>
+<li class="item " ><a href="https://demo.bestprestashoptheme.com/ridestyle/index.php?home=home_2" title="Home page 2">Home page 2</a></li>
+<li class="item " ><a href="https://demo.bestprestashoptheme.com/ridestyle/index.php?home=home_3" title="Home page 3">Home page 3</a></li>
+<li class="item " ><a href="https://demo.bestprestashoptheme.com/ridestyle/index.php?home=home_4" title="Home page 4">Home page 4</a></li>
+<li class="item " ><a href="https://demo.bestprestashoptheme.com/ridestyle/index.php?home=home_5" title="Home page 5">Home page 5</a></li>
+<li class="item " ><a href="https://demo.bestprestashoptheme.com/ridestyle/index.php?home=home_6" title="Home page 6">Home page 6</a></li>
+</ul></div></li>
+<li class="item category-mega group" ><span class="opener"></span><a href="https://demo.bestprestashoptheme.com/ridestyle/en/2-home" title="Shop"><i class="zmdi zmdi-tag"></i>Shop</a><div class="dropdown-menu" style="width:795px"><ul class=""><li class="item col-md-4 html" ><div class="menu-content"><div class="menu-title">LapTop & Accessories</div>
+<ul>
+<li><a href="#">Macbook Pro</a></li>
+<li><a href="#">Lenovo Yoga</a></li>
+<li><a href="#">Laptop Thinkpad</a></li>
+<li><a href="#">Dell Latitude</a></li>
+<li><a href="#">Dell Percision</a></li>
+</ul>
+<div class="menu-title">Smartphone & Tablets</div>
+<ul>
+<li><a href="#">Iphone X</a></li>
+<li><a href="#">Accessories</a></li>
+<li><a href="#">Samsung Galaxy</a></li>
+<li><a href="#">Asus ( Zenfone )</a></li>
+<li><a href="#">Huawei</a></li>
+</ul></div></li><li class="item col-md-4 html" ><div class="menu-content"><div class="menu-title">Electronics</div>
+<ul>
+<li><a href="#">Television</a></li>
+<li><a href="#">Washing Machine</a></li>
+<li><a href="#">Fruit Presses</a></li>
+<li><a href="#">Electric Fan</a></li>
+<li><a href="#">Fridge</a></li>
+</ul>
+<div class="menu-title">Fashion & Accessories</div>
+<ul>
+<li><a href="#">Suitable</a></li>
+<li><a href="#">Clothings</a></li>
+<li><a href="#">Shoes & Sandals</a></li>
+<li><a href="#">Dress & Skirt</a></li>
+<li><a href="#">Accessories</a></li>
+</ul></div></li><li class="item col-md-4 html" ><div class="menu-content"><div class="menu-title">Audio & Sound Devices</div>
+<ul>
+<li><a href="#">Speaker Mionix</a></li>
+<li><a href="#">Headphone Lansing</a></li>
+<li><a href="#">Libratone Product</a></li>
+<li><a href="#">UFi Products</a></li>
+<li><a href="#">Tangent Audio</a></li>
+</ul>
+<div class="menu-title">Furniture</div>
+<ul>
+<li><a href="#">Armchair</a></li>
+<li><a href="#">Accessories</a></li>
+<li><a href="#">Table & Desk</a></li>
+<li><a href="#">Wall Lamp</a></li>
+<li><a href="#">Kitchen Product</a></li>
+</ul></div></li></ul></div></li>
+<li class="item  has-sub" ><span class="opener"></span><a href="#" title="Vendors"><i class="zmdi zmdi-assignment"></i>Vendors</a><div class="dropdown-menu" style="width:200px"><ul class=""><li class="item " ><a href="#" title="Vendor Shop">Vendor Shop</a></li>
+<li class="item  has-sub" ><span class="opener"></span><a href="#" title="Vendor Dashboard">Vendor Dashboard</a><div class="dropdown-menu" style="width:200px"><ul class=""><li class="item " ><a href="#" title="Orders">Orders</a></li>
+<li class="item " ><a href="#" title="Shop Settings">Shop Settings</a></li>
+</ul></div></li>
+</ul></div></li>
+<li class="item  has-sub" ><span class="opener"></span><a href="https://demo.vinovatheme.com/prestashop_ridestyle/blog.html" title="Blog"><i class="zmdi zmdi-library"></i>Blog</a><div class="dropdown-menu" style="width:260px"><ul class=""><li class="item " ><a href="index.php?fc=module&amp;module=smartblog&amp;id_post=7&amp;controller=details" title="Blog detail">Blog detail</a></li>
+<li class="item " ><a href="index.php?fc=module&amp;module=smartblog&amp;id_category=3&amp;page=1&amp;controller=category&amp;cateblog_layout=layout-left-column" title="Category Blog ( Left column)">Category Blog ( Left column)</a></li>
+<li class="item " ><a href="index.php?fc=module&amp;module=smartblog&amp;id_category=3&amp;page=1&amp;controller=category&amp;cateblog_layout=layout-right-column" title="Category Blog ( Right column)">Category Blog ( Right column)</a></li>
+<li class="item " ><a href="index.php?fc=module&amp;module=smartblog&amp;id_category=3&amp;page=1&amp;controller=category&amp;cateblog_layout=layout-one-column" title="Category Blog ( One column)">Category Blog ( One column)</a></li>
+</ul></div></li>
+<li class="item " ><a href="index.php?controller=contact" title="Contact us"><i class="zmdi zmdi-phone"></i>Contact us</a></li>
+<li class="item " ><a href="#" title="ABOUT"><i class="zmdi zmdi-accounts"></i>ABOUT</a></li>
+</ul>
+    </div>
+</nav>
+          </div>
+          
+        </div>
+        <div class="col-xl-4 col-lg-5 col-md-3 d-flex align-items-center justify-content-end header-top-right">
+          <div class="contentsticky_group d-flex align-items-center justify-content-end ">
+            <div class="contentsticky_search d-flex">
+              <!-- block seach mobile -->
+<!-- Block search module TOP -->
+<div id="_desktop_search_content" 
+	data-id_lang="1" 
+	data-ajaxsearch="1" 
+	data-novadvancedsearch_type="top"
+	data-instantsearch=""
+	data-search_ssl="1"
+	data-link_search_ssl="https://demo.bestprestashoptheme.com/ridestyle/en/search"
+	data-action="https://demo.bestprestashoptheme.com/ridestyle/en/module/novadvancedsearch/result">
+	<div class="icon-advansearch">
+		<i class="fa fa-search nov-toggle-btn icon-adsearch"></i>
+	</div>
+	<div class="block_advancedsearch">
+		<form method="get" action="https://demo.bestprestashoptheme.com/ridestyle/en/module/novadvancedsearch/result" id="searchbox" class="form-novadvancedsearch">
+			<input type="hidden" name="fc" value="module">
+			<input type="hidden" name="module" value="novadvancedsearch">
+			<input type="hidden" name="controller" value="result">
+			<input type="hidden" name="orderby" value="position" />
+			<input type="hidden" name="orderway" value="desc" />
+			<input type="hidden" name="id_category" class="id_category" value="0" />
+			<div class="input-group input-group-left">
+				<div class="input-group-btn nov_category_tree">
+					<button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" value="aaaaa" aria-expanded="false">
+						<span>Categories</span>
+					</button>
+					<ul class="dropdown-menu list-unstyled">
+						<li class="dropdown-item " data-value="0"><span>All Categories</span></li>
+						<li class="dropdown-item " data-value="2"><span>Home</span></li>
+												
+														<li class="dropdown-item font-weight-bold" data-value="3" selected>
+								<span>Accessories</span>
+							</li>
+							
+								
+														<li class="dropdown-item font-weight-bold" data-value="6" >
+								<span>Helmets</span>
+							</li>
+							
+								
+														<li class="dropdown-item font-weight-bold" data-value="9" >
+								<span>Bikes</span>
+							</li>
+							
+						<li class="dropdown-item pl-25" data-value="11" >
+				<span>- Road Bike</span>
+							</li>
+					<li class="dropdown-item pl-25" data-value="12" >
+				<span>- Jump Bikes</span>
+							</li>
+					<li class="dropdown-item pl-25" data-value="13" >
+				<span>- BMX Bikes</span>
+							</li>
+					<li class="dropdown-item pl-25" data-value="8" >
+				<span>- Mountain Bike</span>
+							</li>
+										
+														<li class="dropdown-item font-weight-bold" data-value="4" >
+								<span>Clothing</span>
+							</li>
+							
+								
+														<li class="dropdown-item font-weight-bold" data-value="5" >
+								<span>Parts &amp; Components</span>
+							</li>
+							
+								
+														<li class="dropdown-item font-weight-bold" data-value="7" >
+								<span>Frames</span>
+							</li>
+							
+								
+																		</ul >
+				</div>
+				<input type="text" id="search_query_top" class="search_query ui-autocomplete-input form-control" name="search_query" value="" placeholder="Search"/>
+				<span class="input-group-btn button-search">
+					<button class="btn btn-secondary" type="submit" name="submit_search"><i class="icon-novsearch"></i>Enter</button>
+				</span>
+			</div>
+		</form>
+	</div>
+</div>
+<!-- /Block search module TOP -->
+
+            </div>
+            <div id="nov_block_myaccount_infos" class="contentsticky_account hidden-sm-down dropdown header_link_myaccount">
+              <div class="myaccount-icon dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="main">
+              <i class="fa fa-user"></i>
+              </div>
+              <div class="account-list dropdown-menu">
+                <ul class="account-list-content" id="_desktop_account-list-content">
+                    <li>
+    <a class="account" href="https://demo.bestprestashoptheme.com/ridestyle/en/my-account" rel="nofollow" title="Log in to your customer account"><i class="fa fa-cog"></i><span>My Account</span></a>
+  </li>
+  <li>
+    <a class="login" href="https://demo.bestprestashoptheme.com/ridestyle/en/my-account" rel="nofollow" title="Log in to your customer account"><i class="fa fa-sign-in"></i><span>Log in</span></a>
+  </li>
+  <li>
+    <a class="logout"  href="https://demo.bestprestashoptheme.com/ridestyle/en/?mylogout=" rel="nofollow" title="Log me out"><i class="fa fa-sign-out"></i><span>Log out</span></a>
+  </li>
+    <li>
+    <a class="register" href="https://demo.bestprestashoptheme.com/ridestyle/en/login?create_account=1" rel="nofollow" title="Register Account"><i class="fa fa-user"></i><span>Register</span></a>
+  </li>
+  <li>
+    <a class="check-out" href="https://demo.bestprestashoptheme.com/ridestyle/en/order" rel="nofollow" title="Checkout"><i class="material-icons">check_circle</i><span>Checkout</span></a>
+  </li><li class="link_wishlist">
+	<a href="https://demo.bestprestashoptheme.com/ridestyle/en/module/novblockwishlist/mywishlist" title="My Wishlists">
+		<i class="fa fa-heart"></i><span>My Wishlists</span>
+	</a>
+</li>
+
+                </ul>
+              </div>
+            </div>
+            <div class="contentsticky_cart">
+              <div id="_desktop_cart">
+  <div class="blockcart cart-preview" data-refresh-url="//demo.bestprestashoptheme.com/ridestyle/en/module/ps_shoppingcart/ajax">
+    <div class="header-cart">
+      <div class="header-cart-icon">
+        <span class="cart-products-count">0</span>
+        <i class="fa fa-shopping-cart"></i>
+      </div>
+    </div>
+
+    <div class="cart_block ">
+              <div class="no-items">
+          No products in the cart
+        </div>
+          </div>
+  </div>
+</div>
+            </div>
+              <div id="_desktop_language_selector" class="language-selector groups-selector hidden-sm-down">
+  <div class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="main">
+                          <span class="expand-more"> Eng</span>
+                                                                                      </div>
+  <div class="language-list dropdown-menu">
+    <div class="language-list-content text-left groups-selector-list-content">
+            <div class="language-item item-list current flex-first">
+        <div  class="current" >
+          <a href="https://demo.bestprestashoptheme.com/ridestyle/en/3-accessories">
+            <img class="img-fluid" src="/ridestyle/img/l/1.jpg" alt="English" width="16" height="11"/>
+            <span>English</span>
+          </a>
+        </div>
+      </div>
+            <div class="language-item item-list">
+        <div >
+          <a href="https://demo.bestprestashoptheme.com/ridestyle/fr/3-clothes">
+            <img class="img-fluid" src="/ridestyle/img/l/2.jpg" alt="Français" width="16" height="11"/>
+            <span>Français</span>
+          </a>
+        </div>
+      </div>
+            <div class="language-item item-list">
+        <div >
+          <a href="https://demo.bestprestashoptheme.com/ridestyle/es/3-accessories">
+            <img class="img-fluid" src="/ridestyle/img/l/3.jpg" alt="Español" width="16" height="11"/>
+            <span>Español</span>
+          </a>
+        </div>
+      </div>
+            <div class="language-item item-list">
+        <div >
+          <a href="https://demo.bestprestashoptheme.com/ridestyle/it/3-accessories">
+            <img class="img-fluid" src="/ridestyle/img/l/4.jpg" alt="Italiano" width="16" height="11"/>
+            <span>Italiano</span>
+          </a>
+        </div>
+      </div>
+            <div class="language-item item-list">
+        <div >
+          <a href="https://demo.bestprestashoptheme.com/ridestyle/pl/3-accessories">
+            <img class="img-fluid" src="/ridestyle/img/l/5.jpg" alt="Polski" width="16" height="11"/>
+            <span>Polski</span>
+          </a>
+        </div>
+      </div>
+            <div class="language-item item-list">
+        <div >
+          <a href="https://demo.bestprestashoptheme.com/ridestyle/ar/3-accessories">
+            <img class="img-fluid" src="/ridestyle/img/l/6.jpg" alt="اللغة العربية" width="16" height="11"/>
+            <span>اللغة العربية</span>
+          </a>
+        </div>
+      </div>
+          </div>
+  </div>
+</div>
+
+<div id="_desktop_currency_selector" class="currency-selector groups-selector hidden-sm-down">
+  <div class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="main">
+      <span class="expand-more">USD</span>
+  </div>
+  <div class="currency-list dropdown-menu">
+    <div class="currency-list-content groups-selector-list-content">
+                  <div class="currency-item item-list">
+            <a title="Euro" rel="nofollow" href="https://demo.bestprestashoptheme.com/ridestyle/en/3-accessories?SubmitCurrency=1&amp;id_currency=2">€ EUR</a>
+          </div>
+                  <div class="currency-item item-list current flex-first">
+            <a title="US Dollar" rel="nofollow" href="https://demo.bestprestashoptheme.com/ridestyle/en/3-accessories?SubmitCurrency=1&amp;id_currency=1">$ USD</a>
+          </div>
+            </div>
+  </div>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</header>          
+            <div id="wrapper-site">
+                  
+            <nav data-depth="1">
+  <div class="breadcrumb">
+    <div class="container">
+      
+    <ol itemscope="" itemtype="http://schema.org/BreadcrumbList">
+        <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+            <a itemprop="item" href="https://demo.bestprestashoptheme.com/ridestyle/">
+                <span itemprop="name">Home</span>
+            </a>
+            <meta itemprop="position" content="1">
+        </li>
+        <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+            <a itemprop="item" href="https://demo.bestprestashoptheme.com/ridestyle/en/blog.html">
+                <span itemprop="name">Electronic</span>
+                <meta itemprop="position" content="2">
+            </a>
+        </li>
+    </ol>
+
+    </div>
+  </div>
+</nav>          
+                    
+
+              
+<div class="container no-index">
+  	<div class="row">
+		<div id="content-wrapper" class="right-column col-xs-12 col-sm-8 col-md-9 flex-xs-first">
+			
+    <div class="blogwapper has-sidebar-right">
+            	                         
+                                           <div id="sdsblogCategory">
+                    <h1>Electronic</h1>
+                                                                <div class="blog-description">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut iaculis arcu.</p>
+                        </div>
+                                        
+                </div>
+                  
+                            <div id="smartblogcat" class="block ">
+                             
+
+<div itemtype="#" itemscope="" class="sdsarticleCat">
+  <div id="smartblogpost-8">
+      <div class="articleContent">
+          <a itemprop="url" title="New bike set-up instruction" href="https://demo.bestprestashoptheme.com/ridestyle/en/blog/8_.html" class="imageFeaturedLink">
+                                                          <img itemprop="image" alt="New bike set-up instruction" src="/ridestyle/modules//smartblog/images/8-single-default.jpg" class="imageFeatured img-fluid">
+                        </a>
+      </div>
+      <div class="sdsarticleHeader">
+          
+          <div class="sdstitle_block"><a title="New bike set-up instruction" href="https://demo.bestprestashoptheme.com/ridestyle/en/blog/8_.html">New bike set-up instruction</a></div>
+                                                                      <div class="sdsarticle-info post-info">
+              <span class="datetime">April 20, 2017</span>
+            
+                            <span class="comment">
+                  <i class="fa fa-comment-o"></i>
+                  <a title="0 Comments" href="https://demo.bestprestashoptheme.com/ridestyle/en/blog/8_.html#articleComments">0 Comments</a>
+              </span>
+                                                          <span itemprop="author" class="author">
+                <i class="fa fa-user"></i>
+                Demo Demo              </span>
+                        </div>
+      </div>
+      <div class="sdsarticle-des">
+          <div itemprop="description">
+  	        Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut iaculis arcu. Proin tincidunt, ipsum nec... <span class="more"><a title="New bike set-up instruction" href="https://demo.bestprestashoptheme.com/ridestyle/en/blog/8_.html" class="r_more">view more</a></span>
+          </div>
+      </div>
+      <div class="sdsreadMore hidden-xs-up">
+          <span class="more"><a title="New bike set-up instruction" href="https://demo.bestprestashoptheme.com/ridestyle/en/blog/8_.html" class="r_more">Read more</a></span>
+      </div>
+  </div>
+</div>
+                             
+
+<div itemtype="#" itemscope="" class="sdsarticleCat">
+  <div id="smartblogpost-7">
+      <div class="articleContent">
+          <a itemprop="url" title="How to set your saddle height" href="https://demo.bestprestashoptheme.com/ridestyle/en/blog/7_.html" class="imageFeaturedLink">
+                                                          <img itemprop="image" alt="How to set your saddle height" src="/ridestyle/modules//smartblog/images/7-single-default.jpg" class="imageFeatured img-fluid">
+                        </a>
+      </div>
+      <div class="sdsarticleHeader">
+          
+          <div class="sdstitle_block"><a title="How to set your saddle height" href="https://demo.bestprestashoptheme.com/ridestyle/en/blog/7_.html">How to set your saddle height</a></div>
+                                                                      <div class="sdsarticle-info post-info">
+              <span class="datetime">October 08, 2014</span>
+            
+                            <span class="comment">
+                  <i class="fa fa-comment-o"></i>
+                  <a title="0 Comments" href="https://demo.bestprestashoptheme.com/ridestyle/en/blog/7_.html#articleComments">0 Comments</a>
+              </span>
+                                                          <span itemprop="author" class="author">
+                <i class="fa fa-user"></i>
+                Demo Demo              </span>
+                        </div>
+      </div>
+      <div class="sdsarticle-des">
+          <div itemprop="description">
+  	        Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut iaculis arcu. Proin tincidunt, ipsum nec... <span class="more"><a title="How to set your saddle height" href="https://demo.bestprestashoptheme.com/ridestyle/en/blog/7_.html" class="r_more">view more</a></span>
+          </div>
+      </div>
+      <div class="sdsreadMore hidden-xs-up">
+          <span class="more"><a title="How to set your saddle height" href="https://demo.bestprestashoptheme.com/ridestyle/en/blog/7_.html" class="r_more">Read more</a></span>
+      </div>
+  </div>
+</div>
+                             
+
+<div itemtype="#" itemscope="" class="sdsarticleCat">
+  <div id="smartblogpost-6">
+      <div class="articleContent">
+          <a itemprop="url" title="Bike light comparison" href="https://demo.bestprestashoptheme.com/ridestyle/en/blog/6_.html" class="imageFeaturedLink">
+                                                          <img itemprop="image" alt="Bike light comparison" src="/ridestyle/modules//smartblog/images/6-single-default.jpg" class="imageFeatured img-fluid">
+                        </a>
+      </div>
+      <div class="sdsarticleHeader">
+          
+          <div class="sdstitle_block"><a title="Bike light comparison" href="https://demo.bestprestashoptheme.com/ridestyle/en/blog/6_.html">Bike light comparison</a></div>
+                                                                      <div class="sdsarticle-info post-info">
+              <span class="datetime">October 08, 2014</span>
+            
+                            <span class="comment">
+                  <i class="fa fa-comment-o"></i>
+                  <a title="0 Comments" href="https://demo.bestprestashoptheme.com/ridestyle/en/blog/6_.html#articleComments">0 Comments</a>
+              </span>
+                                                          <span itemprop="author" class="author">
+                <i class="fa fa-user"></i>
+                Demo Demo              </span>
+                        </div>
+      </div>
+      <div class="sdsarticle-des">
+          <div itemprop="description">
+  	        Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut iaculis arcu. Proin tincidunt, ipsum nec... <span class="more"><a title="Bike light comparison" href="https://demo.bestprestashoptheme.com/ridestyle/en/blog/6_.html" class="r_more">view more</a></span>
+          </div>
+      </div>
+      <div class="sdsreadMore hidden-xs-up">
+          <span class="more"><a title="Bike light comparison" href="https://demo.bestprestashoptheme.com/ridestyle/en/blog/6_.html" class="r_more">Read more</a></span>
+      </div>
+  </div>
+</div>
+                    </div>
+
+            
+            <style>
+            
+        </style>
+        </div>
+
+		</div>
+
+
+            
+                <div id="right-column" class="sidebar col-xs-12 col-sm-4 col-md-3">
+                                      <div class="nov-modules col-xl-12 col-lg-12 col-md-12 no-padding"><div class="block nov-wrap">
+
+<div class="block-categories block">
+  <ul class="category-top-menu">
+          <li class="title_block"><a href="https://demo.bestprestashoptheme.com/ridestyle/en/2-home">Categories</a></li>
+        <li>
+  <ul class="category-sub-menu"><li data-depth="0"><a href="https://demo.bestprestashoptheme.com/ridestyle/en/3-accessories">Accessories</a></li><li data-depth="0"><a href="https://demo.bestprestashoptheme.com/ridestyle/en/6-helmets">Helmets</a></li><li data-depth="0"><a href="https://demo.bestprestashoptheme.com/ridestyle/en/9-bikes">Bikes</a><div class="navbar-toggler collapse-icons" data-toggle="collapse" data-target="#exCollapsingNavbar9"><i class="material-icons add">add</i><i class="material-icons remove">remove</i></div><div class="collapse" id="exCollapsingNavbar9">
+  <ul class="category-sub-menu"><li data-depth="1"><a class="category-sub-link" href="https://demo.bestprestashoptheme.com/ridestyle/en/11-road-bike">Road Bike</a></li><li data-depth="1"><a class="category-sub-link" href="https://demo.bestprestashoptheme.com/ridestyle/en/12-jump-bikes">Jump Bikes</a></li><li data-depth="1"><a class="category-sub-link" href="https://demo.bestprestashoptheme.com/ridestyle/en/13-bmx-bikes">BMX Bikes</a></li><li data-depth="1"><a class="category-sub-link" href="https://demo.bestprestashoptheme.com/ridestyle/en/8-mountain-bike">Mountain Bike</a></li></ul></div></li><li data-depth="0"><a href="https://demo.bestprestashoptheme.com/ridestyle/en/4-clothing">Clothing</a></li><li data-depth="0"><a href="https://demo.bestprestashoptheme.com/ridestyle/en/5-parts-components">Parts &amp; Components</a></li><li data-depth="0"><a href="https://demo.bestprestashoptheme.com/ridestyle/en/7-frames">Frames</a></li></ul></li>
+  </ul>
+</div>
+</div></div><div class="nov-modules col-xl-12 col-lg-12 col-md-12 no-padding"><div class="block nov-wrap"><div class="title_block">Recent posts</div><div class="block block-recentpost">
+   <div class="block_content sdsbox-content">
+      <div class="recentArticles">
+                                                            <div class="post-item">
+                                
+                <a class="post-title"  title="Portable Bluetooth Speaker with Light up Logo" href="https://demo.bestprestashoptheme.com/ridestyle/en/blog/12_Lorem-ipsum-dolor-sit-amet.html">Portable Bluetooth Speaker with Light up Logo</a>
+                <div class="post-info">
+                  <span class="comment">
+                      <i class="zmdi zmdi-comments"></i>
+                      <a title="0 Comments" href="https://demo.bestprestashoptheme.com/ridestyle/en/blog/12_Lorem-ipsum-dolor-sit-amet.html#articleComments">0 Comments</a>
+                  </span>
+                  <span class="datetime">
+                      <i class="zmdi zmdi-calendar-note"></i>04 Jan 2019
+                  </span>
+                </div>
+                <div class="post-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam </div>
+                
+                <div class="readmore"><a href="https://demo.bestprestashoptheme.com/ridestyle/en/blog/12_Lorem-ipsum-dolor-sit-amet.html">Read more</a></div>
+                
+             </div>
+                                                             <div class="post-item">
+                                
+                <a class="post-title"  title="Portable Bluetooth Speaker with Light up Logo" href="https://demo.bestprestashoptheme.com/ridestyle/en/blog/11_Lorem-ipsum-dolor-sit-amet.html">Portable Bluetooth Speaker with Light up Logo</a>
+                <div class="post-info">
+                  <span class="comment">
+                      <i class="zmdi zmdi-comments"></i>
+                      <a title="0 Comments" href="https://demo.bestprestashoptheme.com/ridestyle/en/blog/11_Lorem-ipsum-dolor-sit-amet.html#articleComments">0 Comments</a>
+                  </span>
+                  <span class="datetime">
+                      <i class="zmdi zmdi-calendar-note"></i>04 Jan 2019
+                  </span>
+                </div>
+                <div class="post-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam </div>
+                
+                <div class="readmore"><a href="https://demo.bestprestashoptheme.com/ridestyle/en/blog/11_Lorem-ipsum-dolor-sit-amet.html">Read more</a></div>
+                
+             </div>
+               </div>
+   </div>
+</div>
+</div></div><div class="nov-modules col-xl-12 col-lg-12 col-md-12 no-padding"><div class="block nov-wrap"><!-- Block tags module -->
+<div id="tags_block_left" class="block tags_block">
+	<div class="title_block"><span>Hot Tags</span></div>
+	<div class="block_content">
+			<a href="https://demo.bestprestashoptheme.com/ridestyle/en/search?tag=Dress" title="More about Dress" class="tag_level3 first_item">Dress</a>
+			<a href="https://demo.bestprestashoptheme.com/ridestyle/en/search?tag=Mountain" title="More about Mountain" class="tag_level2 item">Mountain</a>
+			<a href="https://demo.bestprestashoptheme.com/ridestyle/en/search?tag=Jump" title="More about Jump" class="tag_level2 item">Jump</a>
+			<a href="https://demo.bestprestashoptheme.com/ridestyle/en/search?tag=Cotton" title="More about Cotton" class="tag_level1 item">Cotton</a>
+			<a href="https://demo.bestprestashoptheme.com/ridestyle/en/search?tag=Helmets" title="More about Helmets" class="tag_level1 item">Helmets</a>
+			<a href="https://demo.bestprestashoptheme.com/ridestyle/en/search?tag=Bikes" title="More about Bikes" class="tag_level1 item">Bikes</a>
+			<a href="https://demo.bestprestashoptheme.com/ridestyle/en/search?tag=Jaket" title="More about Jaket" class="tag_level1 item">Jaket</a>
+			<a href="https://demo.bestprestashoptheme.com/ridestyle/en/search?tag=Road" title="More about Road" class="tag_level1 item">Road</a>
+			<a href="https://demo.bestprestashoptheme.com/ridestyle/en/search?tag=Clothing" title="More about Clothing" class="tag_level1 item">Clothing</a>
+			<a href="https://demo.bestprestashoptheme.com/ridestyle/en/search?tag=BMX" title="More about BMX" class="tag_level1 last_item">BMX</a>
+		</div>
+</div>
+<!-- /Block tags module -->
+</div></div>
+                                  </div>
+              </div>
+            </div>
+            
+      </div>
+      
+                  <footer class="footer footer-one">
+  
+  <div class="inner-footer">
+    <div class="container">
+      <div class="row">
+        <div class="nov-row footer-top "  data-nov-full-width="true"><div class="nov-row-wrap row"><div class="nov-html col-xl-4 col-lg-4 col-md-4 col-md-8">
+ <div class="block">
+ 	  <div class="block_content">
+   <div class="custom-text-logo">
+<div class="text-logo"><a href="#/"> <span>RIDESTYLE</span> </a></div>
+</div>
+<div class="custom-information info-contact-footer ">
+<p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<ul class="list-none smoke">
+<li><i class="fa fa-phone"></i>1-688-123-44567</li>
+<li><i class="fa fa-map-marker"></i>690 South Meadow Dr. Meadville, PA 16335</li>
+<li><i class="fa fa-envelope-o"></i><a href="#">Support@domain.com</a></li>
+</ul>
+</div>
+  </div>
+ </div>
+</div>
+<div class="nov-html col-xl-2 col-lg-2 col-md-2 col-md-4">
+ <div class="block">
+ 	 	<div class="title_block">
+ 		About Us
+ 		 	</div>
+ 	  <div class="block_content">
+   <ul class="list-menu-footer">
+<li><a href="#">About Us</a></li>
+<li><a href="#">Contact Us</a></li>
+<li><a href="#">Blog</a></li>
+<li><a href="#">Order history</a></li>
+<li><a href="#">Terms & Condition</a></li>
+</ul>
+  </div>
+ </div>
+</div>
+<div class="nov-html col-xl-2 col-lg-2 col-md-2 col-md-4 mt-sm-30">
+ <div class="block">
+ 	 	<div class="title_block">
+ 		CUSTOMER SERVICE
+ 		 	</div>
+ 	  <div class="block_content">
+   <ul class="&quot;list-menu-footer">
+<li><a href="#">Shipping Policy</a></li>
+<li><a href="#">Compensation First</a></li>
+<li><a href="#">Delivery Information</a></li>
+<li><a href="#">F.A.Q.'s</a></li>
+<li><a href="#">Careers</a></li>
+</ul>
+  </div>
+ </div>
+</div>
+<div class="nov-modules col-xl-4 col-lg-4 col-md-4 newsletter-home col-md-8 mt-sm-30"><div class="block nov-wrap"><div class="title_block">Newsletter</div><div class="block_newsletter">
+   
+  <form action="https://demo.bestprestashoptheme.com/ridestyle/en/#footer" method="post">
+            <div class="input-group">
+      <input type="text" class="form-control" name="email" value="" placeholder="Enter Your Email!">
+      <span class="input-group-btn">
+        <button class="btn btn-secondary" name="submitNewsletter" type="submit">Subscribe</button>
+      </span>
+    </div>
+    <input type="hidden" name="action" value="0">
+  </form>
+
+      <div class="content-text-newsletter">
+      <p>Sign up get 20% sale off for first time, Get all the latest deals and special offers, first.</p>
+    </div>
+        <div class="social-content d-flex align-items-center">
+      <span> Follow us: </span>
+      <ul class="list-inline d-flex mb-0">
+                <li class="list-inline-item"><a class="facebook" href="#" target="_blank"><i class="zmdi zmdi-facebook"></i></a></li>
+                        <li class="list-inline-item" ><a class="twitter" href="#" target="_blank"><i class="zmdi zmdi-twitter"></i></a></li>
+                        <li class="list-inline-item" ><a class="youtube" href="#" target="_blank"><i class="zmdi zmdi-youtube-play"></i></a></li>
+                        <li class="list-inline-item" ><a class="instagram" href="#" target="_blank"><i class="zmdi zmdi-instagram"></i></a></li>
+              </ul>
+    </div>
+      </div>
+<!-- Popup newsletter -->
+<div id="popup-subscribe" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="zmdi zmdi-hc-fw zmdi-close"></i></button>
+            </div>
+            <div class="modal-body">
+                <form action="https://demo.bestprestashoptheme.com/ridestyle/en/" method="post">
+                    <div class="subscribe_form d-flex text-center justify-content-center ">
+                        <div class="inner">
+                            <div class="title_block">Newsletter</div>
+                            <p>Receive email-only deals, special offtters &amp; product exclusives</p>
+                            <div class="input-subscribe-wrap input-group">
+                                <input class="inputNew form-control grey newsletter-input" placeholder="Enter your email address" type="text" name="email" size="18" value="" />
+                                <span class="input-group-btn">
+                                    <button type="submit" name="submitNewsletter" class="btn btn-primary">Subscribe</button>
+                                </span>
+                                <input type="hidden" name="action" value="0" />
+                            </div>
+                            <div class="checkbox">
+                                <span class="custom-checkbox">
+                                    <input name="no-view" class="no-view" type="checkbox">
+                                    <span class="ps-shown-by-js"><i class="material-icons checkbox-checked">check</i></span>
+                                </span>
+                                <span>Don&#039;t show this popup again</span>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</div>
+</div></div></div></div><div class="nov_row-full-width clearfix w-100"></div>
+        
+        <div class="links">
+  </div>
+
+        
+      </div>
+    </div>
+  </div>
+  <div id="nov-copyright">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 text-copyright">
+                    <span>
+            Copyright © 2019 <span>Vinovatheme Ltd</span>. All Rights Reserved. Designed by <span>Vinovatheme</span>
+          </span>
+                  </div>
+        <div class="col-md-6 image-payment text-md-right text-center mt-xs-20 mb-xs-10">
+                      <img class="img-fluid" src="/ridestyle/modules/novthemeconfig/images/payment-2.png" alt="payment" title="Payment" />
+                  </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<div class="canvas-overlay"></div>
+
+<div id="_desktop_back_top">
+  <div id="back-top">
+    <span>
+      <i class="fa fa-long-arrow-up"></i>
+    </span>
+    <span class="text">On Top</span>
+  </div>
+</div>              
+
+    </main>
+
+    
+      <div id="mobile_top_menu_wrapper" class="hidden-md-up">
+        <div class="content">
+          <div id="_mobile_verticalmenu"></div>
+        </div>
+      </div>
+    
+
+    <div id="mobile-pagemenu" class="mobile-boxpage d-flex hidden-md-up">
+        <div class="content-boxpage col">
+          <div class="box-header d-flex justify-content-between align-items-center">
+              <div class="title-box">Menu</div>
+              <div class="close-box">Close</div>
+          </div>
+          <div class="box-content">
+            <div id="_mobile_top_menu" class="js-top-menu"></div>
+          </div>
+        </div>
+    </div>
+    <div id="mobile-blockcart" class="mobile-boxpage d-flex hidden-md-up">
+        <div class="content-boxpage col">
+          <div class="box-header d-flex justify-content-between align-items-center">
+              <div class="title-box">Cart</div>
+              <div class="close-box">Close</div>
+          </div>
+          <div id="_mobile_cart" class="box-content"></div>
+        </div>
+    </div>
+    <div id="mobile-pageaccount" class="mobile-boxpage d-flex hidden-md-up" data-titlebox-parent="Account">
+        <div class="content-boxpage col">
+          <div class="box-header d-flex justify-content-between align-items-center">
+              <div class="back-box">Back</div>
+              <div class="title-box">Account</div>
+              <div class="close-box">Close</div>
+          </div>
+          <div class="box-content d-flex justify-content-center align-items-center text-center">
+            <div>
+                <ul id="_mobile_account-list-content" class="account-list-content"></ul>
+                <div class="links-currency" data-target="#box-currency" data-titlebox="Currency"><span>Currency</span><i class="zmdi zmdi-arrow-right"></i></div>
+                <div class="links-language" data-target="#box-language" data-titlebox="Language"><span>Language</span><i class="zmdi zmdi-arrow-right"></i></div>
+            </div>
+          </div>
+          <div id="box-currency" class="box-content d-flex">
+            <div class="w-100">
+                          <div class="item-currency">
+                <a title="Euro" rel="nofollow" href="https://demo.bestprestashoptheme.com/ridestyle/en/3-accessories?SubmitCurrency=1&amp;id_currency=2">Euro: EUR</a>
+              </div>
+                          <div class="item-currency current">
+                <a title="US Dollar" rel="nofollow" href="https://demo.bestprestashoptheme.com/ridestyle/en/3-accessories?SubmitCurrency=1&amp;id_currency=1">US Dollar: USD</a>
+              </div>
+                        </div>
+          </div>
+
+          <div id="box-language" class="box-content d-flex">
+            <div class="w-100">
+                          <div class="item-language current">
+                <a href="https://demo.bestprestashoptheme.com/ridestyle/en/3-accessories" class="d-flex align-items-center"><img class="img-fluid mr-2" src="/ridestyle/img/l/1.jpg" alt="English (English)" width="16" height="11" /><span>English</span></a>
+              </div>
+                          <div class="item-language">
+                <a href="https://demo.bestprestashoptheme.com/ridestyle/fr/3-clothes" class="d-flex align-items-center"><img class="img-fluid mr-2" src="/ridestyle/img/l/2.jpg" alt="Français (French)" width="16" height="11" /><span>Français</span></a>
+              </div>
+                          <div class="item-language">
+                <a href="https://demo.bestprestashoptheme.com/ridestyle/es/3-accessories" class="d-flex align-items-center"><img class="img-fluid mr-2" src="/ridestyle/img/l/3.jpg" alt="Español (Spanish)" width="16" height="11" /><span>Español</span></a>
+              </div>
+                          <div class="item-language">
+                <a href="https://demo.bestprestashoptheme.com/ridestyle/it/3-accessories" class="d-flex align-items-center"><img class="img-fluid mr-2" src="/ridestyle/img/l/4.jpg" alt="Italiano (Italian)" width="16" height="11" /><span>Italiano</span></a>
+              </div>
+                          <div class="item-language">
+                <a href="https://demo.bestprestashoptheme.com/ridestyle/pl/3-accessories" class="d-flex align-items-center"><img class="img-fluid mr-2" src="/ridestyle/img/l/5.jpg" alt="Polski (Polish)" width="16" height="11" /><span>Polski</span></a>
+              </div>
+                          <div class="item-language">
+                <a href="https://demo.bestprestashoptheme.com/ridestyle/ar/3-accessories" class="d-flex align-items-center"><img class="img-fluid mr-2" src="/ridestyle/img/l/6.jpg" alt="اللغة العربية (Arabic)" width="16" height="11" /><span>اللغة العربية</span></a>
+              </div>
+                        </div>
+          </div>
+
+        </div>
+    </div>
+
+    
+      <div id="stickymenu_bottom_mobile">
+        <div class="row align-items-center justify-content-center hidden-md-up text-center no-gutters">
+          <div class="stickymenu-item col">
+            <a href="https://demo.bestprestashoptheme.com/ridestyle/"><i class="icon-house"></i><span>Home</span></a>
+          </div>
+          <div class="stickymenu-item col">
+            <a href="https://demo.bestprestashoptheme.com/ridestyle/en/module/novblockwishlist/mywishlist"><i class="zmdi zmdi-favorite-outline"></i><span>Wishlist</span></a>
+          </div>
+          <div class="stickymenu-item col">
+            <div id="_mobile_cart_bottom" class="nov-toggle-page" data-target="#mobile-blockcart"></div>
+          </div>
+          <div class="stickymenu-item col">
+            <a href="#" class="nov-toggle-page" data-target="#mobile-pageaccount"><i class="icon-settings"></i><span>Setting</span></a>
+          </div>
+          <div class="stickymenu-item col"><div id="_mobile_back_top"></div></div>
+        </div>
+      </div>
+
+    
+
+    <div class="modal-login modal fade">
+    <div class="modal-dialog modal-dialog-centered">
+    
+    <div class="block-form-login">
+        <section class="login-form">
+            <div class="page_title_account text-center">Login</div>
+            <div class="block-sociallogin text-center">
+    <div class="title_sociallogin">Login using social network:</div>
+    <div class="content_sociallogin row spacing-10">
+                    <div class="col">
+                <a                         onclick="SocialPopup('//demo.bestprestashoptheme.com/ridestyle/en/module/novloginsocial/authenticate?provider=facebook&page=authentication')"
+                                       class="btn btn-sociallogin-facebook col">
+                    <i class="zmdi zmdi-facebook"></i>
+                    Facebook
+                </a>
+            </div>
+        
+                    <div class="col">
+                <a                         onclick="SocialPopup('//demo.bestprestashoptheme.com/ridestyle/en/module/novloginsocial/authenticate?provider=twitter&page=authentication')"
+                                       class="btn btn-sociallogin-twitter col">
+                    <i class="zmdi zmdi-twitter"></i>
+                    Twitter
+                </a>
+            </div>
+        
+                    <div class="col">
+                <a                         onclick="SocialPopup('//demo.bestprestashoptheme.com/ridestyle/en/module/novloginsocial/authenticate?provider=google&page=authentication')"
+                                       class="btn btn-sociallogin-google col">
+                    <i class="zmdi zmdi-google-old"></i>
+                    Google
+                </a>
+            </div>
+            </div>
+</div>
+
+            <p class="text-center mb-15">Or Insert your account information:</p>
+            
+
+
+  
+    <div class="row no-gutters">
+      <div class="col-md-10 offset-md-2">
+              </div>
+    </div>
+  
+
+  <form id="login-form-popup" action="https://demo.bestprestashoptheme.com/ridestyle/en/login?back=https://demo.bestprestashoptheme.com/ridestyle/en/helmets/index.php?fc=module&amp;module=smartblog&amp;id_category=3&amp;page=1&amp;controller=category&amp;cateblog_layout=layout-right-column" method="post">
+
+    <section>
+      
+                  
+            
+  <input type="hidden" name="back" value="">
+
+
+          
+                  
+              <div class="form-group row no-gutters novform-email">
+    <label class="col-md-2 form-control-label required">
+              Email
+          </label>
+    <div class="col-md-8">
+      
+        <input
+          class="form-control"
+          name="email"
+          type="email"
+          value=""
+          placeholder="Email"
+                    required        >
+        
+      
+          </div>
+
+    <div class="col-md-2 form-control-comment right">
+          </div>
+  </div>
+
+
+          
+                  
+              <div class="form-group row no-gutters novform-password">
+    <label class="col-md-2 form-control-label required">
+              Password
+          </label>
+    <div class="col-md-8">
+      
+        <div class="input-group js-parent-focus">
+          <input
+            class="form-control js-child-focus js-visible-password"
+            name="password"
+            type="password"
+            value=""
+            placeholder="Password"
+            pattern=".{5,}"
+            required          >
+          <span class="input-group-btn">
+            <button
+              class="btn"
+              type="button"
+              data-action="show-password"
+              data-text-show="<i class='zmdi zmdi-eye-off'></i>"
+              data-text-hide="<i class='zmdi zmdi-eye'></i>"
+            >
+              <i class='zmdi zmdi-eye-off'></i>
+            </button>
+          </span>
+        </div>
+      
+          </div>
+
+    <div class="col-md-2 form-control-comment right">
+          </div>
+  </div>
+
+
+          
+              
+      <div class="forgot-password text-center mt-25 mb-25">
+        <i class="zmdi zmdi-email"></i>&nbsp;
+        Forgot your&nbsp;
+        <a href="https://demo.bestprestashoptheme.com/ridestyle/en/password-recovery" rel="nofollow">
+          <span>Password</span>&nbsp;?
+        </a>
+      </div>
+    </section>
+
+    
+      <footer class="form-footer clearfix">
+        <div class="row no-gutters">
+          <div class="col-md-10 offset-md-2">
+            <input type="hidden" name="submitLogin" value="1">
+            
+              <button class="btn btn-primary" data-link-action="sign-in" type="submit" class="form-control-submit">
+                Login
+              </button>
+            
+          </div>
+        </div>
+      </footer>
+    
+
+  </form>
+
+        </section>
+        
+            
+        
+        <div class="no-account">
+            <a class="font-weight-bold" href="https://demo.bestprestashoptheme.com/ridestyle/en/login?create_account=1" data-link-action="display-register-form">
+            No account? Create one here
+            </a>
+        </div>
+     </div>
+    
+    </div>
+</div>
+
+
+    
+        <script type="text/javascript" src="https://demo.bestprestashoptheme.com/ridestyle/themes/vinova_ridestyle/assets/cache/bottom-5009b740.js" ></script>
+
+
+    
+
+    
+      
+    
+
+
+
+            <div id="fb-root"></div>
+        
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_EN/sdk.js#xfbml=1&version=v2.10";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+        
+      </body>
+</html>

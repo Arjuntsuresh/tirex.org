@@ -1,0 +1,175 @@
+<!-- /*
+* Bootstrap 5
+* Template Name: Furni
+* Template Author: Untree.co
+* Template URI: https://untree.co/
+* License: https://creativecommons.org/licenses/by/3.0/
+*/ -->
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Untree.co">
+  <link rel="shortcut icon" href="favicon.png">
+  <title>Thank You</title>
+
+  <meta name="description" content="" />
+  <meta name="keywords" content="bootstrap, bootstrap4" />
+  <link rel="icon" type="image/png" href="/user_assets/ridestyle/img/favicon.ico@1324977642">
+
+		<!-- Bootstrap CSS -->
+		<link href="/user_assets/thankYou/css/bootstrap.min.css" rel="stylesheet">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+		<link href="/user_assets/thankYou/css/tiny-slider.css" rel="stylesheet">
+		<link href="/user_assets/thankYou/css/style.css" rel="stylesheet">
+		<title>Furni Free Bootstrap 5 Template for Furniture and Interior Design Websites by Untree.co </title>
+	</head>
+
+	<body>
+
+		<!-- Start Header/Navigation -->
+
+		<!-- End Hero Section -->
+<style>
+
+    /* The Modal */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal content */
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 100%; /* Make it take the full width */
+  max-height: 100%; /* Make it take the full height */
+  overflow: auto; /* Add scroll if content overflows */
+  position: relative;
+  animation-name: zoom;
+  animation-duration: 0.3s;
+}
+
+/* Close button */
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Zoom-in animation */
+@keyframes zoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+/* CSS for styling the brand logo */
+.brand-logo {
+  max-width: 200px; /* Adjust the maximum width as needed */
+  margin-bottom: 20px; /* Add margin for spacing */
+}
+
+</style>
+		
+
+	
+
+
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div class="untree_co-section">
+        <!-- Add your brand logo here -->
+        <div class="text-center">
+          <img src="user_assets/userImages/logo-2.png" alt="Your Brand Logo" class="brand-logo">
+        </div>
+  
+        <!-- Existing content goes here -->
+        <div class="untree_co-section">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12 text-center pt-5">
+                  <span class="display-3 thankyou-icon text-primary">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cart-check mb-5" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M11.354 5.646a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L8 8.293l2.646-2.647a.5.5 0 0 1 .708 0z"/>
+                      <path fill-rule="evenodd" d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+                    </svg>
+                  </span>
+                  <h2 class="display-3 text-black">Thank you!</h2>
+                  <p class="lead mb-5">You order was successfuly completed.</p>
+                  <p><a href="/shoppage" class="btn btn-sm btn-outline-black">Back to shop</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center pt-5">
+              <!-- Existing content -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+		<!-- Start Footer Section -->
+		
+		<!-- End Footer Section -->	
+<script>
+
+    // Get the modal element and close button
+var modal = document.getElementById("myModal");
+var closeButton = document.getElementsByClassName("close")[0];
+
+// Function to open the modal
+function openModal() {
+  modal.style.display = "block";
+}
+
+// Function to close the modal
+function closeModal() {
+  modal.style.display = "none";
+}
+
+// Open the modal when the page loads (you can trigger it based on user actions)
+window.onload = openModal;
+
+// Close the modal when the close button is clicked
+closeButton.onclick = closeModal;
+
+// Close the modal when the user clicks outside of it
+window.onclick = function (event) {
+  if (event.target == modal) {
+    closeModal();
+  }
+};
+
+</script>
+
+		<script src="/user_assets/thankYou/css/js/bootstrap.bundle.min.js"></script>
+		<script src="/user_assets/thankYou/css/js/tiny-slider.js"></script>
+		<script src="/user_assets/thankYou/css/js/custom.js"></script>
+	</body>
+
+</html>
