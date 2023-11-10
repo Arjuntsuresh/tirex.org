@@ -148,7 +148,7 @@ const loadDashboard = async (req, res) => {
 const userList = async (req, res) => {
   try {
     const listUser = await user.find();
-    res.render("userList", { users: listUser });
+    res.render("userList", { users: listUser , req: req});
   } catch (error) {
     console.log(error.message);
     res.status(500).render("500page");
