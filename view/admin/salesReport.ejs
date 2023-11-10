@@ -72,12 +72,17 @@
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            <% for(let i=0;i<order.length;i++){ %>
+                                            <% const itemsPerPage = 10; %>
+                                            <% const currentPage = parseInt(req.query.page) || 1; %>
+                                            <% const startIndex = (currentPage - 1) * itemsPerPage; %>
+                                            <% const endIndex = Math.min(currentPage * itemsPerPage, order.length); %>
+                    
+                                            <% for (let i = startIndex; i < endIndex; i++) { %>
                                                 <tr>
                                                     <td><a href="#" class="fw-bold"><%= order[i]._id %></a></td>
                                                     <td><%= order[i].user_name %></td>
                                                     <td>
-                                                        <% const orderDate=new Date(order[i].order_date); %>
+                                                        <% const orderDate = new Date(order[i].order_date); %>
                                                         <% if (!isNaN(orderDate)) { %>
                                                             <%= orderDate.toISOString().split('T')[0] %>
                                                         <% } else { %>
@@ -94,9 +99,21 @@
                                         </tbody>
                                     </table>
                                 </div>
+                    
+                                <!-- Pagination Control -->
+                                <div class="pagination">
+                                    <% const totalPages = Math.ceil(order.length / itemsPerPage); %>
+                    
+                                    <% for (let page = 1; page <= totalPages; page++) { %>
+                                        <a href="?page=<%= page %>" class="page-link <%= page === currentPage ? 'active' : '' %>">
+                                            <%= page %>
+                                        </a>
+                                    <% } %>
+                                </div>
                             </div>
                         </div>
                     </div>
+                    
                 </div>
             </div>
         </section>

@@ -281,70 +281,58 @@
                 </header>
                 <div class="card-body">
                     <div class="table-responsive">
-                        <div class="table-responsive">
-                            <table class="table align-middle table-nowrap mb-0">
-                                <thead class="table-light">
+                        <table class="table align-middle table-nowrap mb-0">
+                            <thead class="table-light">
+                                <tr>
+                                    <th class="align-middle" scope="col">Order ID</th>
+                                    <th class="align-middle" scope="col">Billing Name</th>
+                                    <th class="align-middle" scope="col">Date</th>
+                                    <th class="align-middle" scope="col">Total</th>
+                                    <th class="align-middle" scope="col">Payment Method</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <% const rowsPerPage = 10; %>
+                                <% const totalPages = Math.ceil(order.length / rowsPerPage); %>
+                                <% const currentPage = parseInt(req.query.page) || 1; %>
+                                <% const startIndex = (currentPage - 1) * rowsPerPage; %>
+                                <% const endIndex = Math.min(currentPage * rowsPerPage, order.length); %>
+                
+                                <% for (let i = startIndex; i < endIndex; i++) { %>
                                     <tr>
-
-                                        <th class="align-middle" scope="col">Order ID</th>
-                                        <th class="align-middle" scope="col">Billing Name</th>
-                                        <th class="align-middle" scope="col">Date</th>
-                                        <th class="align-middle" scope="col">Total</th>
-                                        <th class="align-middle" scope="col">Payment Method</th>
+                                        <td><a href="#" class="fw-bold"><%= order[i]._id %></a></td>
+                                        <td><%= order[i].user_name %></td>
+                                        <td>
+                                            <% const orderDate = new Date(order[i].order_date); %>
+                                            <% if (!isNaN(orderDate)) { %>
+                                                <%= orderDate.toISOString().split('T')[0] %>
+                                            <% } else { %>
+                                                <%= order[i].order_date %>
+                                            <% } %>
+                                        </td>
+                                        <td>₹ <%= order[i].total_price %></td>
+                                        <td>
+                                            <i class="material-icons md-payment font-xxl text-muted mr-5"></i>
+                                            <%= order[i].payment_type %>
+                                        </td>
                                     </tr>
-                                </thead>
-                                <tbody>
-                                    <% for(let i=0;i<order.length;i++){ %>
-                                        <tr>
-
-                                            <td><a href="#" class="fw-bold">
-                                                    <%= order[i]._id %>
-                                                </a> </td>
-                                            <td>
-                                                <%= order[i].user_name %>
-                                            </td>
-                                            <td>
-                                                <% const orderDate=new Date(order[i].order_date); %>
-                                                    <% if (!isNaN(orderDate)) { %>
-                                                        <%= orderDate.toISOString().split('T')[0] %>
-                                                            <% } else { %>
-                                                                <%= order[i].order_date %>
-                                                                    <% } %>
-                                            </td>
-                                            <td>
-                                                ₹ <%= order[i].total_price %>
-                                            </td>
-
-                                            <td>
-                                                <i class="material-icons md-payment font-xxl text-muted mr-5"></i>
-                                                <%= order[i].payment_type %>
-                                            </td>
-
-                                        </tr>
-                                        <% } %>
-
-
-
-
-                                </tbody>
-                            </table>
+                                <% } %>
+                            </tbody>
+                        </table>
+                
+                        <!-- Pagination Control -->
+                        <div class="pagination">
+                            <% for (let page = 1; page <= totalPages; page++) { %>
+                                <a href="?page=<%= page %>" class="page-link <%= page === currentPage ? 'active' : '' %>">
+                                    <%= page %>
+                                </a>
+                            <% } %>
                         </div>
-                    </div> <!-- table-responsive end// -->
+                    </div>
                 </div>
+                
             </div>
-            <div class="pagination-area mt-30 mb-50">
-                <nav aria-label="Page navigation example">
-                    <ul class="pagination justify-content-start">
-                        <li class="page-item active"><a class="page-link" href="#">01</a></li>
-                        <li class="page-item"><a class="page-link" href="#">02</a></li>
-                        <li class="page-item"><a class="page-link" href="#">03</a></li>
-                        <li class="page-item"><a class="page-link dot" href="#">...</a></li>
-                        <li class="page-item"><a class="page-link" href="#">16</a></li>
-                        <li class="page-item"><a class="page-link" href="#"><i
-                                    class="material-icons md-chevron_right"></i></a></li>
-                    </ul>
-                </nav>
-            </div>
+           
         </section> <!-- content-main end// -->
         <footer class="main-footer font-xs">
             <div class="row pb-30 pt-15">

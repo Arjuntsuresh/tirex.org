@@ -138,7 +138,7 @@ const loadDashboard = async (req, res) => {
     });
 
    
-    res.render("dashboard", { order, monthlySalesArray, product, catagory,usersGrowthArray });
+    res.render("dashboard", { order, monthlySalesArray, product, catagory,usersGrowthArray,req });
   } catch (error) {
     res.status(500).render("500page");
   }
@@ -749,7 +749,7 @@ const salesReport = async (req, res) => {
         { delivery_status: "Delivered" },
       ],
     });
-    res.render("salesReport", { order,currentPage });
+    res.render("salesReport", { order,currentPage,req });
   } catch (error) {
     res.status(404).render("404page");
   }
